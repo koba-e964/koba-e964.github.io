@@ -1,6 +1,8 @@
 <html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <script>
 var mode;
+var qtype;
 var qnumber, tlimit;
 var bits;
 var qradix;   // radix of question
@@ -35,11 +37,12 @@ function check() {
   }
   if (!doing) {   // game start
     mode    = getRadioValue("mode");
+    qtype   = getRadioValue("qtype");
     qnumber = document.getElementById("qnum").value;
     tlimit  = document.getElementById("limit").value;
-    bits    = getRadioValue("bits");
-    qradix  = getRadioValue("qradix");
-    aradix  = getRadioValue("aradix");
+    bits    = -1000 // dummy value, for 99*99
+    qradix  = 10; // 99*99 configuration
+    aradix  = 10; // 99*99 configuration
     penalty = getRadioValue("penalty");
     if (penalty == 1) {
       penalty = document.getElementById("pen_sec").value;
@@ -111,14 +114,22 @@ function newQuestion() {
 }
 
 function genQuestion() {
-  var min = 0;
-  var max = 1 << bits;
-  do {
-    var r1 = Math.floor(Math.random() * (max - min)) + min;
-    var r2 = Math.floor(Math.random() * (max - min)) + min;
-  } while (r1 == question[0] || r2 == question[1]);
-  question[0] = r1;
-  question[1] = r2;
+  var min = 10;
+  var max = 100; // 99 * 99
+  if (qtype == 0) {
+    do {
+      var r1 = Math.floor(Math.random() * (max - min)) + min;
+      var r2 = Math.floor(Math.random() * (max - min)) + min;
+    } while (and(r1 == question[0], r2 == question[1]));
+    question[0] = r1;
+    question[1] = r2;
+  } else { // square
+    do {
+      var r1 = Math.floor(Math.random() * (max - min)) + min;
+    } while (r1 == question[0]);
+    question[0] = r1;
+    question[1] = r1;
+  }
 }
 
 function dispText() {
@@ -203,6 +214,8 @@ function chmod(mode) {
 
 </script>
 
+<p> 99*99の遊び方 <p>
+「Start」ボタンを押すと問題が出題されるので、10進数で解答欄に入力し、Enterキーを押してください。<br/>
 <p>
   <b style="font-size:large;">&lt;設定&gt;</b><br/>
   モード:
@@ -216,25 +229,9 @@ function chmod(mode) {
     制限時間: <input type="number" id="limit" value="30" min="1" style="width:3em;"/> 秒
   </span>
   <br/>
-  ビット数:
-  <label><input type="radio" name="bits" value="4" checked/>4bit</label>
-  <label><input type="radio" name="bits" value="6"/>6bit</label>
-  <label><input type="radio" name="bits" value="8"/>8bit</label>
-  <label><input type="radio" name="bits" value="10"/>10bit</label>
-  <label><input type="radio" name="bits" value="12"/>12bit</label>
-  <label><input type="radio" name="bits" value="16"/>16bit</label>
-  <br/>
   出題形式:
-  <label><input type="radio" name="qradix" value="2" checked/>2進</label>
-  <label><input type="radio" name="qradix" value="8"/>8進</label>
-  <label><input type="radio" name="qradix" value="10"/>10進</label>
-  <label><input type="radio" name="qradix" value="16"/>16進</label>
-  <br/>
-  解答形式:
-  <label><input type="radio" name="aradix" value="2"/>2進</label>
-  <label><input type="radio" name="aradix" value="8"/>8進</label>
-  <label><input type="radio" name="aradix" value="10" checked/>10進</label>
-  <label><input type="radio" name="aradix" value="16"/>16進</label>
+  <label><input type="radio" name="qtype" value="0" checked/>一般</label>
+  <label><input type="radio" name="qtype" value="1"/>平方</label>
   <br/>
   ペナルティ:
   <label><input type="radio" name="penalty" value="0" checked/>なし</label>
@@ -264,3 +261,5 @@ function chmod(mode) {
   <span id="results"></span>
 </p>
 </html>
+
+
