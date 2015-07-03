@@ -1,0 +1,279 @@
+﻿<html>
+<title>フラッシュ累乗根</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<body>
+<script>
+var mode;
+var qtype;
+var qnumber, tlimit;
+var bits;
+var exp; // exponent
+var qradix;   // radix of question
+var aradix;   // radix of answer
+var penalty;  // penalty seconds. -1 represents immediate termination
+var qindex;   // current number of questions
+var correct;  // number of correct answers
+var question = [0, 0];
+var answer; // answer
+var time, timer;
+var doing = false;
+var results = [];
+
+// MediaWiki converts "&&" to "&amp;&amp;" !!
+function and() {
+  for (var i = 0; i < arguments.length; ++i)
+    if (!arguments[i])
+      return false;
+  return true;
+}
+
+function getRadioValue(name) {
+  var elms = document.getElementsByName(name);
+  for (var i = 0; i < elms.length; ++i)
+    if (elms[i].checked)
+      return parseInt(elms[i].value, 10);
+  return undefined;
+}
+
+function check() {
+  if (document.getElementById("start").disabled) {
+    return;
+  }
+  if (!doing) {   // game start
+    mode    = getRadioValue("mode");
+    qtype   = getRadioValue("qtype");
+    qnumber = document.getElementById("qnum").value;
+    exp     = document.getElementById("exponent").value;
+    tlimit  = document.getElementById("limit").value;
+    bits    = -1000 // dummy value, for 99*99
+    qradix  = 10; // 99*99 configuration
+    aradix  = 10; // 99*99 configuration
+    penalty = getRadioValue("penalty");
+    if (penalty == 1) {
+      penalty = document.getElementById("pen_sec").value;
+    }
+    qindex  = 0;
+    correct = 0;
+    doing   = true;
+    results = [];
+    document.getElementById("cor").innerHTML = "0/0";
+    if (mode === 0) {
+      time = 0;
+      timer = setInterval("countup(1);", 100);
+      document.getElementById("time0").innerHTML = "経過時間";
+      document.getElementById("time1").innerHTML = "0.0";
+    } else {
+      time = tlimit * 10;
+      timer = setInterval("countup(-1);", 100);
+      document.getElementById("time0").innerHTML = "残り時間";
+      document.getElementById("time1").innerHTML = tlimit + ".0";
+    }
+    document.getElementById("answer").focus();
+    document.getElementById("answer").value = "";
+    document.getElementById("start").value = "Enter";
+    document.getElementById("results").innerHTML = "";
+    newQuestion();
+  } else {    // check
+    var ans = document.getElementById("answer").value;
+    results[qindex - 1][2] = ans;
+    ans = aradix == -1 ? ans.charCodeAt() : parseInt(ans, aradix);
+    if (ans == answer) {
+      ++correct;
+    } else {
+      imposePenalty();
+    }
+    document.getElementById("answer").focus();
+    document.getElementById("answer").value = "";
+    document.getElementById("cor").innerHTML = correct + "/" + qindex;
+    if (and(mode === 0, correct == qnumber)) {
+      endGame(true);
+    } else {
+      newQuestion();
+    }
+  }
+}
+
+function imposePenalty() {
+  if (penalty == -1) {
+    endGame(true);
+  } else {
+    if (mode === 0) {
+      time += penalty * 10;
+    } else {
+      time = Math.max(time - penalty * 10, 0);
+      document.getElementById("time1").innerHTML = (time / 10).toFixed(1);
+      if (time === 0) endGame(true);
+    }
+  }
+}
+
+function newQuestion() {
+  if (!doing) {
+    return;
+  }
+  genQuestion();
+  var s = dispText();
+  document.getElementById("q0").innerHTML = "Q" + (++qindex) + ".";
+  document.getElementById("q1").innerHTML = s;
+  results.push([s, answer, undefined]);
+}
+
+function power(a, e) {
+  var s = 1;
+  var c = a;
+  while (e > 0) {
+    if (e % 2 == 1) {
+      s *= c;
+    }
+    c *= c;
+    e = Math.floor(e / 2);
+  }
+  return s;
+}
+
+function genQuestion() {
+  var min = 10;
+  var max = 100; // 99 * 99
+  do {
+    var r1 = Math.floor(Math.random() * (max - min)) + min;
+  } while (r1 == question[0]);
+  question[0] = power(r1, exp);
+  answer = r1;
+}
+
+function dispText() {
+  var s;
+  s = 
+    numberToString(question[0], qradix, bits)
+      + ' の'
+      + (exp).toString()
+      + '乗根';
+  return s;
+}
+
+function numberToString(num, radix, bits) {
+  var s;
+  if (radix == 10) {
+    s = num.toString(qradix);
+  } else if (radix == 2) {
+    s = "";
+    for (var i = 0; i < bits - 1; ++i) s += "0";
+    s = (s + num.toString(radix)).substr(-bits);
+    for (var i = bits - 4; i > 0; i -= 4)
+      s = s.substr(0, i) + " " + s.substr(i);
+  } else {
+    s = "";
+    var d = Math.ceil(bits / (radix == 8 ? 3 : 4));
+    for (var i = 0; i < d - 1; ++i) s += "0";
+    s = (s + num.toString(radix).toUpperCase()).substr(-d);
+  }
+  return s;
+}
+
+function endGame(lock) {
+  if (doing) {
+    doing = false;
+    clearInterval(timer);
+    document.getElementById("q0").innerHTML = "Q**";
+    document.getElementById("q1").innerHTML = "*****";
+    document.getElementById("q2").innerHTML = "";
+    document.getElementById("start").value = "Start";
+    if (lock) {
+      document.getElementById("start").disabled = true;
+      setTimeout(function() {
+        document.getElementById("start").disabled = false;
+      }, 3000);
+    }
+  }
+}
+
+function showResults() {
+  if (doing) {
+    return;
+  }
+  var res = "";
+  for (var i = 0; i < results.length; ++i) {
+    if (results[i][2] === undefined) continue;
+    var ans = aradix == -1 ? results[i][2].charCodeAt() : parseInt(results[i][2], aradix);
+    res += "Q" + (i + 1) + ". ";
+    res += results[i][1] == ans ? "[正解] " : "[不正解] ";
+    res += "問題: " + results[i][0];
+    res += " / 正答: " + results[i][1].toString(aradix).toUpperCase();
+    res += " / 解答: " + results[i][2] + "<br/>";
+  }
+  document.getElementById("results").innerHTML = res;
+}
+
+function countup(s) {
+  time += s;
+  document.getElementById("time1").innerHTML = (time / 10).toFixed(1);
+  if (time === 0) {
+    endGame(true);
+  }
+}
+
+function submitStop(e){
+  if (!e) var e = window.event;
+  if (e.keyCode == 13) {
+    check();
+    return false;
+  }
+}
+
+function chmod(mode) {
+  document.getElementById("mode" + mode).style.display = "inline";
+  document.getElementById("mode" + (1 - mode)).style.display = "none";
+}
+
+</script>
+
+<h1>フラッシュ累乗根</h1>
+<h2>遊び方</h2>
+「Start」ボタンを押すと問題が出題されるので、10進数で解答欄に入力し、Enterキーを押してください。<br/>
+問題として10から99までの整数のn乗が与えられるので、そのn乗根を計算して入力してください。(nは2から13までの整数)</br>
+
+<p>
+  <b style="font-size:large;">&lt;設定&gt;</b><br/>
+  モード:
+  <label><input type="radio" name="mode" value="0" onClick="chmod(0);" checked/>正解数制</label>
+  <label><input type="radio" name="mode" value="1" onClick="chmod(1);"/>制限時間制</label>
+  <br/>
+  <span id="mode0">
+    正解数: <input type="number" id="qnum" value="10" min="1" style="width:3em;"/> 問
+  </span>
+  <span id="mode1" style="display:none;">
+    制限時間: <input type="number" id="limit" value="30" min="1" style="width:3em;"/> 秒
+  </span>
+  <br/>
+  出題形式:
+  指数:<input type="number" id="exponent" value="2" min="2" max="13" />
+  <br/>
+  ペナルティ:
+  <label><input type="radio" name="penalty" value="0" checked/>なし</label>
+  <label><input type="radio" name="penalty" value="-1"/>即時終了</label>
+  <label><input type="radio" name="penalty" value="1"/>秒数指定: </label>
+  <input type="number" id="pen_sec" value="5" min="0" style="width:3em;"/> 秒
+</p>
+<br/>
+<p style="font-size:x-large; position:relative;">
+  <span id="q0" style="font-size:xx-large;">Q**</span><br/>
+  <span id="q1" style="font-size:xx-large;">*****</span>
+  <span id="q2" style="position:absolute; left:1.5em; bottom:0;"></span>
+</p>
+<p style="font-size:large">
+  正解数: <span id="cor">0/0</span><br/>
+  <span id="time0">経過時間</span>: <span id="time1">0.0</span>秒
+</p>
+<p>
+  解答欄:
+  <input type="text" id="answer" onKeyPress="return submitStop(event);"/>
+  <input type="button" id="start" onClick="check();" value="Start"/>
+  <input type="button" id="stop" onClick="endGame(false);" value="Stop"/>
+</p>
+<br/>
+<p>
+  <input type="button" onClick="showResults();" value="結果表示"/><br/>
+  <span id="results"></span>
+</p>
+</body>
+</html>
