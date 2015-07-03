@@ -2,6 +2,7 @@
 <title>フラッシュ累乗根</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <body>
+<script type="text/javascript" src="./bignumber.js"></script>
 <script>
 var mode;
 var qtype;
@@ -118,14 +119,15 @@ function newQuestion() {
   results.push([s, answer, undefined]);
 }
 
+/* a : BigInteger */
 function power(a, e) {
-  var s = 1;
+  var s = new BigNumber(1);
   var c = a;
   while (e > 0) {
     if (e % 2 == 1) {
-      s *= c;
+      s = s.mul(c);
     }
-    c *= c;
+    c = c.mul(c);
     e = Math.floor(e / 2);
   }
   return s;
@@ -137,6 +139,7 @@ function genQuestion() {
   do {
     var r1 = Math.floor(Math.random() * (max - min)) + min;
   } while (r1 == question[0]);
+  r1 = new BigNumber(r1);
   question[0] = power(r1, exp);
   answer = r1;
 }
