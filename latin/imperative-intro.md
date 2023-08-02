@@ -1,5 +1,7 @@
 # [こばのページ](../index.html)/[ラテン語](index.html)/命令形入門
 
+(Status: ![WIP](https://progress-bar.dev/20/?title=WIP))
+
 ラテン語の命令形には単数・複数の 2 通りがあります。
 
 [Exsultate Deo](https://www.vctokyo.jp/images/20150406/poulenc.pdf) を例にして説明します。
