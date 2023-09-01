@@ -44,7 +44,7 @@
 |**in**teger non negā**tī**vus, **in**tegrī non negā**tī**vī|nonnegative integer|非負整数|
 |līne**ā**ris|linear|線形の、一次の|
 |**mi**nimus com**mū**nis dī**vi**duus, **mi**nimī com**mū**nis dī**vi**duī|least common multiple|最小公約数|
-|mul**ti**plicō, mul**ti**plicāre|multiply|掛ける、乗算する|
+|mul**ti**plicō, multipli**cā**re|multiply|掛ける、乗算する|
 |negā**tī**vus|negative|負の|
 |**nu**merus, **nu**merī|number|数|
 |posi**tī**vus|positive|正の|
