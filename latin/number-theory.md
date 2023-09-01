@@ -72,3 +72,15 @@
 # 参考資料
 - Disquisitiones Arithmeticae (DA) の原著: [https://gdz.sub.uni-goettingen.de/id/PPN235993352](https://gdz.sub.uni-goettingen.de/id/PPN235993352)
 - ガウス整数論 (日本語訳の商品ページ): [https://www.asakura.co.jp/detail.php?book_code=11457](https://www.asakura.co.jp/detail.php?book_code=11457)
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="kobae964" data-dnt="true">Tweet</a>
+<script type="text/javascript">
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0],
+  p=/^http:/.test(d.location)?'http':'https';
+  if(!d.getElementById(id)){
+    js=d.createElement(s);js.id=id;
+    js.src=p+'://platform.twitter.com/widgets.js';
+    fjs.parentNode.insertBefore(js,fjs);
+}}(document, 'script', 'twitter-wjs');
+</script>
