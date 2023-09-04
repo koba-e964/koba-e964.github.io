@@ -49,6 +49,14 @@ func CreateNoun(gender Gender, nom string, gen string, decltype int) Noun {
 	}
 }
 
+func CreateThirdDeclensionNoun(gender Gender, nom string, gen string, pluralGen string) Noun {
+	return Noun{
+		Gender:         gender,
+		DeclensionType: 3,
+		Declensions:    [2][6]*string{{&nom, &gen}, {nil, &pluralGen}},
+	}
+}
+
 // CaseFind finds the declension for a noun and a case.
 // noun.Declensions[0][0] and noun.Declensions[0][1] should be given.
 // If something wrong happens, this function returns nil.
@@ -126,7 +134,33 @@ func CaseFind(noun Noun, number Number, case_ Case) *string {
 		value := prefix + [][]string{{"ēs", "ēī", "ēī", "em", "ē", "ēs"}, {"ēs", "ērum", "ēbus", "ēs", "ēbus", "ēs"}}[number][case_]
 		return &value
 	}
-	return nil
+	if noun.DeclensionType != 3 {
+		return nil
+	}
+	// 3rd declension: the hardest part
+	prefix, found := strings.CutSuffix(*noun.Declensions[0][1], "is")
+	if !found {
+		return nil
+	}
+	if number == Singular && (case_ == Nominative || case_ == Vocative) {
+		return noun.Declensions[0][0]
+	}
+	if number == Plural && case_ == Genitive {
+		// plural genitive can be one of -um and -ium
+		// since there's no telling which is which, we require
+		// the plural genitive to be given.
+		return noun.Declensions[Plural][Genitive]
+	}
+	if noun.Gender != Neuter {
+		value := prefix + [][]string{{"", "is", "ī", "em", "e", ""}, {"ēs", "um", "ibus", "ēs", "ibus", "ēs"}}[number][case_]
+		return &value
+	}
+	// neuter; accusative = nominative
+	if number == Singular && case_ == Accusative {
+		return noun.Declensions[0][0]
+	}
+	value := prefix + [][]string{{"", "is", "ī", "", "e", ""}, {"a", "um", "ibus", "a", "ibus", "a"}}[number][case_]
+	return &value
 }
 
 func main() {

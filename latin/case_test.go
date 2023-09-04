@@ -83,6 +83,69 @@ func TestCaseSecondDeclension(t *testing.T) {
 	}
 }
 
+func TestCaseThirdDeclension(t *testing.T) {
+	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
+	numbers := []Number{Singular, Plural}
+
+	// non-neuter -ium
+	{
+		noun := CreateThirdDeclensionNoun(Feminine, "ars", "artis", "artium")
+		expected := [][]string{
+			{"ars", "artis", "artī", "artem", "arte", "ars"},
+			{"artēs", "artium", "artibus", "artēs", "artibus", "artēs"},
+		}
+		for i, number := range numbers {
+			for j, case_ := range cases {
+				actual := CaseFind(noun, number, case_)
+				actually.Got(*actual).Expect(expected[i][j]).Same(t)
+			}
+		}
+	}
+	// neuter -ium
+	{
+		noun := CreateThirdDeclensionNoun(Neuter, "cor", "cordis", "cordium")
+		expected := [][]string{
+			{"cor", "cordis", "cordī", "cor", "corde", "cor"},
+			{"corda", "cordium", "cordibus", "corda", "cordibus", "corda"},
+		}
+		for i, number := range numbers {
+			for j, case_ := range cases {
+				actual := CaseFind(noun, number, case_)
+				actually.Got(*actual).Expect(expected[i][j]).Same(t)
+			}
+		}
+	}
+
+	// non-neuter -um
+	{
+		noun := CreateThirdDeclensionNoun(Feminine, "salūs", "salūtis", "salūtum")
+		expected := [][]string{
+			{"salūs", "salūtis", "salūtī", "salūtem", "salūte", "salūs"},
+			{"salūtēs", "salūtum", "salūtibus", "salūtēs", "salūtibus", "salūtēs"},
+		}
+		for i, number := range numbers {
+			for j, case_ := range cases {
+				actual := CaseFind(noun, number, case_)
+				actually.Got(*actual).Expect(expected[i][j]).Same(t)
+			}
+		}
+	}
+	// neuter -um
+	{
+		noun := CreateThirdDeclensionNoun(Neuter, "genus", "generis", "generum")
+		expected := [][]string{
+			{"genus", "generis", "generī", "genus", "genere", "genus"},
+			{"genera", "generum", "generibus", "genera", "generibus", "genera"},
+		}
+		for i, number := range numbers {
+			for j, case_ := range cases {
+				actual := CaseFind(noun, number, case_)
+				actually.Got(*actual).Expect(expected[i][j]).Same(t)
+			}
+		}
+	}
+}
+
 func TestCaseFourthDeclension(t *testing.T) {
 	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
 	numbers := []Number{Singular, Plural}
