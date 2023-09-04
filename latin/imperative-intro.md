@@ -1,3 +1,5 @@
+<link rel="icon" type="image/x-icon" href="./latin.ico">
+
 # [こばのページ](../index.html)/[ラテン語](index.html)/命令形入門
 
 (Status: ![WIP](https://progress-bar.dev/70/?title=WIP))
