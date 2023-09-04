@@ -14,6 +14,7 @@ icon: ./latin.ico
 ## 語彙
 使われている単語をまとめます。なお[アクセント](https://aeneis.jp/?p=3325)のある位置は太字で示しています。
 
+{:class="table table-bordered" .table-striped}
 |命令形(単数)|命令形(複数)|意味|原形|
 |--|--|--|--|
 |ex**sul**tā|exsul**tā**te|喜べ|[ex**sul**tō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=exsulto)|
@@ -23,7 +24,6 @@ icon: ./latin.ico
 |**bū**cinā|būci**nā**te|吹き鳴らせ|[**bū**cinō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=bucino)[^1]|
 |at**ten**de|at**ten**dite|注意を払え/向き直れ|[at**ten**dō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=attendo)|
 |**vi**dē|vi**dē**te|見ろ|[**vi**deō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=video)|
-
 
 -te で終わると多くの場合で複数に対する命令形、そうでない場合は単数に対する命令形です。Exsultate Deo や O vos omnes では複数に対する命令文だけで詩が構成されています。
 

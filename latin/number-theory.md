@@ -29,6 +29,7 @@ icon: ./latin.ico
 - 名詞は単数主格と単数属格を示します。
 - 形容詞は男性の単数主格のみを示します。
 
+{:class="table table-bordered" .table-striped}
 |ラテン語|英語|意味|注釈|
 |--|--|--|--|
 |**ad**dō, **ad**dere|add|足す、加算する|
