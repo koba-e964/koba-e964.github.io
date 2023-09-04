@@ -12,7 +12,7 @@
 
 原著はラテン語で書かれており、[https://gdz.sub.uni-goettingen.de/id/PPN235993352](https://gdz.sub.uni-goettingen.de/id/PPN235993352) で閲覧可能です。日本語訳は「[ガウス整数論](https://www.asakura.co.jp/detail.php?book_code=11457)」という書名です。
 
-原著のラテン語読解のために役にたつ情報をここにまとめます。
+原著のラテン語読解の役に立つ情報をここにまとめます。
 
 # 注意事項
 - u と v は interchangeable に使われるので注意。
@@ -35,7 +35,7 @@
 |dis**crī**minans (男性), discrīmi**nan**tis|discriminant|判別式|
 |**dī**vidō, dī**vi**dere|divide|割る、除算する|
 |dīvī**si**bilis per *a*|divisible by *a*|*a* で割り切れる|
-|dī**vī**sor com**mū**nis **ma**ximus, dīvī**so**ris com**mū**nis **ma**ximī|greatest common divisor|最大公約数|
+|dī**vī**sor com**mū**nis **ma**ximus, dīvī**sō**ris com**mū**nis **ma**ximī|greatest common divisor|最大公約数|
 |ex**pō**nens (?性), expō**nen**tis|exponent|(冪の) 指数|
 |in**cog**nitus|unknown|未知の|
 |**in**dex, **in**dicis|index|指数|
@@ -55,10 +55,11 @@
 |prō**duc**tum, prō**duc**tī|product|積|「…の積」は prōductum ex ...|
 |prō**gres**siō geō**me**trica, prōgressi**ō**nis geō**me**tricae|geometric progression|幾何数列、等比数列|
 |prōpo**si**tiō, prōpositi**ō**nis|proposition|命題|
+|Q.E.D. (quod erat dēmons**tran**dum)|which was to be demonstrated|これが示されるべきであった|
 |**quan**do|when|…のとき|
 |**rā**dix prīmi**tī**va, **rā**dicis prīmi**tī**vae|primitive root|原始根|
 |re**si**duum, re**si**duī|residue|余り|
-|**se**riēs (女性), **se**riēī|sequence?|列?|
+|**se**riēs (女性), seri**ē**ī|sequence?|列?|
 |sī|if|もし|
 |sys**tē**ma decadicum|?|十進法?|
 |**ter**minus, **ter**minī|term|項|
