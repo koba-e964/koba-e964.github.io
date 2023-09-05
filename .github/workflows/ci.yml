@@ -1,0 +1,13 @@
+name: Check Go files
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check Go files
+      run: |
+        cd latin
+        go test

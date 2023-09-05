@@ -6,10 +6,10 @@ import (
 	"github.com/bayashi/actually"
 )
 
-func TestCaseFirstDeclension(t *testing.T) {
-	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
-	numbers := []Number{Singular, Plural}
+var cases = []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
+var numbers = []Number{Singular, Plural}
 
+func TestCaseFirstDeclension(t *testing.T) {
 	{
 		word := "amīca"
 		noun := CreateNoun(Feminine, word, word+"e", 1)
@@ -37,9 +37,6 @@ func TestCaseFirstDeclension(t *testing.T) {
 }
 
 func TestCaseSecondDeclension(t *testing.T) {
-	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
-	numbers := []Number{Singular, Plural}
-
 	{
 		noun := CreateNoun(Masculine, "dominus", "dominī", 2)
 		expected := [][]string{
@@ -84,9 +81,6 @@ func TestCaseSecondDeclension(t *testing.T) {
 }
 
 func TestCaseThirdDeclension(t *testing.T) {
-	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
-	numbers := []Number{Singular, Plural}
-
 	// non-neuter -ium
 	{
 		noun := CreateThirdDeclensionNoun(Feminine, "ars", "artis", "artium")
@@ -147,9 +141,6 @@ func TestCaseThirdDeclension(t *testing.T) {
 }
 
 func TestCaseFourthDeclension(t *testing.T) {
-	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
-	numbers := []Number{Singular, Plural}
-
 	{
 		noun := CreateNoun(Feminine, "manus", "manūs", 4)
 		expected := [][]string{
@@ -166,9 +157,6 @@ func TestCaseFourthDeclension(t *testing.T) {
 }
 
 func TestCaseFifthDeclension(t *testing.T) {
-	cases := []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
-	numbers := []Number{Singular, Plural}
-
 	{
 		noun := CreateNoun(Feminine, "speciēs", "speciēī", 5)
 		expected := [][]string{

@@ -1,0 +1,4 @@
+- adjectives' declension
+- verbs' conjugation
+- separation into syllables
+- generating Markdown
