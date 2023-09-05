@@ -1,6 +1,6 @@
 module koba-e964.github.io/latin
 
-go 1.21.0
+go 1.21
 
 require github.com/bayashi/actually v0.13.2
 
