@@ -36,9 +36,9 @@ icon: ./latin.ico
     - 訳: `(あなたは) 再び私に死を与えろ。`
 - 複数の例
   - At**ten**dite et vi**dē**te. (『哀歌』第 1 章第 12 節)
-    - 訳 `(あなたたちは) 注意を払え、そして見ろ。`
+    - 訳: `(あなたたちは) 注意を払え、そして見ろ。`
   - Vi**dē**te do**lō**rem **me**um. (『哀歌』第 1 章第 18 節)
-    - 訳 `(あなたたちは) 私の苦しみを見ろ。`
+    - 訳: `(あなたたちは) 私の苦しみを見ろ。`
   - Can**tā**te **Do**minō **can**ticum **no**vum. (『詩篇』第 149 章第 1 節)
     - 訳: `(あなたたちは) 主に向かって新しい歌を歌え。`
 
@@ -63,16 +63,3 @@ icon: ./latin.ico
 - 歌詞資料 (O vos omnes)
   - CPDL: [https://www.cpdl.org/wiki/index.php/O_vos_omnes](https://www.cpdl.org/wiki/index.php/O_vos_omnes)
   - 日本語訳: TODO
-
-
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="kobae964" data-dnt="true">Tweet</a>
-<script type="text/javascript">
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0],
-  p=/^http:/.test(d.location)?'http':'https';
-  if(!d.getElementById(id)){
-    js=d.createElement(s);js.id=id;
-    js.src=p+'://platform.twitter.com/widgets.js';
-    fjs.parentNode.insertBefore(js,fjs);
-}}(document, 'script', 'twitter-wjs');
-</script>
