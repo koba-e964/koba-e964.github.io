@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -39,6 +38,28 @@ type Noun struct {
 	// nil: not yet filled
 	// &"": actually missing
 	Declensions [2][6]*string
+}
+
+func (noun *Noun) Fill() {
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 6; j++ {
+			if noun.Declensions[i][j] == nil {
+				value := CaseFind(*noun, Number(i), Case(j))
+				noun.Declensions[i][j] = value
+			}
+		}
+	}
+}
+
+func (noun *Noun) IsFilled() bool {
+	for i := 0; i < 2; i++ {
+		for j := 0; j < 6; j++ {
+			if noun.Declensions[i][j] == nil {
+				return false
+			}
+		}
+	}
+	return true
 }
 
 func CreateNoun(gender Gender, nom string, gen string, decltype int) Noun {
@@ -161,8 +182,4 @@ func CaseFind(noun Noun, number Number, case_ Case) *string {
 	}
 	value := prefix + [][]string{{"", "is", "ī", "", "e", ""}, {"a", "um", "ibus", "a", "ibus", "a"}}[number][case_]
 	return &value
-}
-
-func main() {
-	fmt.Println("2")
 }
