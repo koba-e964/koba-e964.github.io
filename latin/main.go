@@ -13,23 +13,26 @@ func check(e error) {
 	}
 }
 
-func generateMarkdownFileForNoun(noun NounEntry) {
-	filename := "number-theory/noun-" + noun.Filename + ".md"
+func generateMarkdownFileForNoun(directory string, noun NounEntry) {
+	filename := directory + "/noun-" + noun.Filename + ".md"
 	noun.Noun.Fill()
 	err := os.WriteFile(filename, []byte(MakeMarkdownForNoun(noun)), os.FileMode(0666))
 	check(err)
 }
 
 func main() {
-	dat, err := os.ReadFile("number-theory/words.toml")
-	if err != nil {
-		log.Fatal(err)
-	}
-	var config Config
-	str := string(dat)
-	toml.Decode(str, &config)
-	for _, nounConfig := range config.Nouns {
-		entry := nounConfig.ToNounEntry()
-		generateMarkdownFileForNoun(entry)
+	directories := []string{"number-theory", "imperative-intro"}
+	for _, directory := range directories {
+		dat, err := os.ReadFile(directory + "/words.toml")
+		if err != nil {
+			log.Fatal(err)
+		}
+		var config Config
+		str := string(dat)
+		toml.Decode(str, &config)
+		for _, nounConfig := range config.Nouns {
+			entry := nounConfig.ToNounEntry()
+			generateMarkdownFileForNoun(directory, entry)
+		}
 	}
 }

@@ -1,0 +1,58 @@
+[[nouns]]
+title = "oculus"
+synopsis = "oculus"
+genitive = "oculī"
+declension = 2
+gender = "masculine"
+translation = "目"
+
+[[nouns]]
+title = "robur"
+synopsis = "rōbur"
+genitive = "rōburis"
+plural_genitive = "rōburum"
+declension = 3
+gender = "neuter"
+translation = "力"
+
+[[nouns]]
+title = "auxilium"
+synopsis = "auxilium"
+genitive = "auxiliī"
+declension = 2
+gender = "neuter"
+translation = "助け"
+
+[[nouns]]
+title = "mors"
+synopsis = "mors"
+genitive = "mortis"
+plural_genitive = "mortium"
+declension = 3
+gender = "feminine"
+translation = "死"
+
+[[nouns]]
+title = "dolor"
+synopsis = "dolor"
+genitive = "dolōris"
+plural_genitive = "dolōrum"
+declension = 3
+gender = "masculine"
+translation = "悲しみ"
+
+[[nouns]]
+title = "dominus"
+synopsis = "dominus"
+genitive = "dominī"
+declension = 2
+gender = "masculine"
+translation = "主"
+
+[[nouns]]
+title = "canticum"
+synopsis = "canticum"
+genitive = "canticī"
+declension = 2
+gender = "neuter"
+translation = "歌"

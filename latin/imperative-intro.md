@@ -30,24 +30,24 @@ icon: ./latin.ico
 
 ## 例文
 - 単数の例
-  - Dā **rō**bur, fer au**xi**lium.
+  - Dā **rō**bur, fer [au**xi**lium](imperative-intro/noun-auxilium).
     - 訳: `(あなたは) 力を与えろ、助けをもたらせ。`
-  - Dā **mi**hi **mor**tem **i**terum.
+  - Dā **mi**hi [**mor**tem](imperative-intro/noun-mors) **i**terum.
     - 訳: `(あなたは) 再び私に死を与えろ。`
 - 複数の例
   - At**ten**dite et vi**dē**te. (『哀歌』第 1 章第 12 節)
     - 訳: `(あなたたちは) 注意を払え、そして見ろ。`
-  - Vi**dē**te do**lō**rem **me**um. (『哀歌』第 1 章第 18 節)
+  - Vi**dē**te [do**lō**rem](imperative-intro/noun-dolor) **me**um. (『哀歌』第 1 章第 18 節)
     - 訳: `(あなたたちは) 私の苦しみを見ろ。`
-  - Can**tā**te **Do**minō **can**ticum **no**vum. (『詩篇』第 149 章第 1 節)
+  - Can**tā**te [**Do**minō](imperative-intro/noun-dominus) [**can**ticum](imperative-intro/noun-canticum) **no**vum. (『詩篇』第 149 章第 1 節)
     - 訳: `(あなたたちは) 主に向かって新しい歌を歌え。`
 
 ### 注意
 たとえば [ā**ver**te](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=Averto) (`そらせ`) や [con**ver**te](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=converto) (`向けろ`) の -te は複数形ではありません。
-- Ā**ver**te **o**culōs **tu**ōs ā mē. (『雅歌』第 6 章第 4 節)
+- Ā**ver**te [**o**culōs](imperative-intro/noun-oculus) **tu**ōs ā mē. (『雅歌』第 6 章第 4 節)
   - 訳: `(あなたは) あなたの目たちを私からそらせ。`
   - ā**ver**te は単数形であり、複数形は ā**ver**tite です。
-- **Il**lōs **tu**ōs miseri**cor**dēs **o**culōs ad nōs con**ver**te.
+- **Il**lōs **tu**ōs miseri**cor**dēs [**o**culōs](imperative-intro/noun-oculus) ad nōs con**ver**te.
   - 訳: `(あなたは) それらのあなたの慈悲深い目たちを私たちへと向けろ。`
 
 判別方法ですが、複数形の命令形はほとんどが -āte, -ite, -ēte で終わるので、それである程度の判定はできます。完璧に判定したければ辞書を引くしかないでしょう。
