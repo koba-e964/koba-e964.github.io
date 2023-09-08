@@ -29,7 +29,7 @@ func (conf NounConfig) ToNounEntry() NounEntry {
 		panic(conf.Gender)
 	}
 	if conf.Declension != 3 {
-		noun = CreateNoun(gender, conf.Synopsis, conf.Synopsis, 2)
+		noun = CreateNoun(gender, conf.Synopsis, conf.Genitive, 2)
 	} else {
 		noun = CreateThirdDeclensionNoun(gender, conf.Synopsis, conf.Genitive, conf.PluralGenitive)
 	}

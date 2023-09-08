@@ -1,7 +1,10 @@
 package main
 
 import (
+	"log"
 	"os"
+
+	"github.com/BurntSushi/toml"
 )
 
 func check(e error) {
@@ -18,11 +21,15 @@ func generateMarkdownFileForNoun(noun NounEntry) {
 }
 
 func main() {
-	noun := CreateNoun(Masculine, "integer", "integrī", 2)
-	entry := NounEntry{
-		Noun:        noun,
-		Filename:    "integer",
-		Translation: "整数",
+	dat, err := os.ReadFile("number-theory/words.toml")
+	if err != nil {
+		log.Fatal(err)
 	}
-	generateMarkdownFileForNoun(entry)
+	var config Config
+	str := string(dat)
+	toml.Decode(str, &config)
+	for _, nounConfig := range config.Nouns {
+		entry := nounConfig.ToNounEntry()
+		generateMarkdownFileForNoun(entry)
+	}
 }

@@ -52,7 +52,7 @@ icon: ./latin.ico
 |**mi**nimus com**mū**nis dī**vi**duus, **mi**nimī com**mū**nis dī**vi**duī|least common multiple|最小公約数|
 |mul**ti**plicō, multipli**cā**re|multiply|掛ける、乗算する|
 |negā**tī**vus|negative|負の|
-|**nu**merus, **nu**merī|number|数|
+|[**nu**merus](./number-theory/noun-numerus), **nu**merī|number|数|
 |posi**tī**vus|positive|正の|
 |po**tes**tās, potes**tā**tis|power|冪|
 |(**nu**merus) **prī**mus, (**nu**merī) **prī**mī|prime number, prime|素数|
@@ -72,7 +72,7 @@ icon: ./latin.ico
 |theō**rē**ma (中性), theō**rē**matis|theorem|定理|
 |**u**bi|where|…において|
 |**ū**nitās (女性), ūni**tā**tis|unity|1|
-|**va**lor (男性), va**lō**ris|value|値|
+|[**va**lor](./number-theory/noun-valor) (男性), va**lō**ris|value|値|
 
 [^congruus]: 例: Secundum modulum 9 omnes numeri 10 potestates unitati sunt congruae. (法 9 の下では、数 10 のすべての冪は 1 と合同である。) (DA の I.12)
 

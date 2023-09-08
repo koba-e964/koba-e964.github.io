@@ -1,6 +1,9 @@
 package main
 
-import "log"
+import (
+	"fmt"
+	"log"
+)
 
 func makeMarkdownTable(columns []string, rows []string, table [][]string) string {
 	n := len(rows)
@@ -32,7 +35,7 @@ func makeMarkdownTable(columns []string, rows []string, table [][]string) string
 
 func MakeMarkdownForNoun(noun NounEntry) string {
 	if !noun.Noun.IsFilled() {
-		log.Panicln("noun declensions are not filled")
+		log.Panicf("noun declensions are not filled: %s", noun.Filename)
 	}
 	columns := []string{"単数", "複数"}
 	rows := []string{
@@ -69,6 +72,9 @@ func MakeMarkdownForNoun(noun NounEntry) string {
 title: 名詞 ` + noun.Filename + `
 icon: ../latin.ico
 ---
-`
+
+## ` + noun.Filename + " (" + noun.Translation + ")\n" +
+		[]string{"男", "女", "中"}[noun.Noun.Gender] + "性名詞 第 " +
+		fmt.Sprintf("%d", int(noun.Noun.DeclensionType)) + " 変化名詞\n\n"
 	return header + makeMarkdownTable(columns, rows, table)
 }

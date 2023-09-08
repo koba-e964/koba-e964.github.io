@@ -1,0 +1,25 @@
+# valor, -ōris (III, m): 値
+[[nouns]]
+title = "valor"
+synopsis = "valor"
+genitive = "valōris"
+plural_genitive = "valōrum"
+declension = 3
+gender = "masculine"
+translation = "値"
+
+[[nouns]]
+title = "integer"
+synopsis = "integer"
+genitive = "integrī"
+declension = 2
+gender = "masculine"
+translation = "整数"
+
+[[nouns]]
+title = "numerus"
+synopsis = "numerus"
+genitive = "numerī"
+declension = 2
+gender = "masculine"
+translation = "数"
