@@ -30,8 +30,8 @@ func makeMarkdownTable(columns []string, rows []string, table [][]string) string
 	return result
 }
 
-func MakeMarkdownForNoun(noun Noun) string {
-	if !noun.IsFilled() {
+func MakeMarkdownForNoun(noun NounEntry) string {
+	if !noun.Noun.IsFilled() {
 		log.Panicln("noun declensions are not filled")
 	}
 	columns := []string{"単数", "複数"}
@@ -43,17 +43,30 @@ func MakeMarkdownForNoun(noun Noun) string {
 		"奪格",
 		"呼格",
 	}
+	japaneseJoshis := []string{
+		"は",
+		"の",
+		"に",
+		"を",
+		"で",
+		"よ",
+	}
 	table := make([][]string, 6)
 	for i := 0; i < 6; i++ {
 		table[i] = make([]string, 2)
 	}
 	for i := 0; i < 2; i++ {
+		maybePlural := ""
+		if i == 1 {
+			maybePlural = "たち"
+		}
 		for j := 0; j < 6; j++ {
-			table[j][i] = *noun.Declensions[i][j]
+			table[j][i] = *noun.Noun.Declensions[i][j] +
+				" (" + noun.Translation + maybePlural + japaneseJoshis[j] + ")"
 		}
 	}
 	header := `---
-title: 名詞 ` + *noun.Declensions[0][0] + `
+title: 名詞 ` + noun.Filename + `
 icon: ../latin.ico
 ---
 `

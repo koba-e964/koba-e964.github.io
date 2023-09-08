@@ -46,7 +46,7 @@ icon: ./latin.ico
 |in**cog**nitus|unknown|未知の|
 |**in**dex, **in**dicis|index|指数|
 |in **ge**nere|in general|一般に|
-|(**nu**merus) **in**teger, (**nu**merī) **in**tegrī|integral number, integer|整数|
+|(**nu**merus) [**in**teger](./number-theory/noun-integer), (**nu**merī) **in**tegrī|integral number, integer|整数|
 |**in**teger non negā**tī**vus, **in**tegrī non negā**tī**vī|nonnegative integer|非負整数|
 |līne**ā**ris|linear|線形の、一次の|
 |**mi**nimus com**mū**nis dī**vi**duus, **mi**nimī com**mū**nis dī**vi**duī|least common multiple|最小公約数|
