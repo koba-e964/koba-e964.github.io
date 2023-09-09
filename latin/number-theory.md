@@ -5,13 +5,6 @@ icon: ./latin.ico
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/整数論のラテン語
 
-(Status: ![WIP](https://progress-bar.dev/43/?title=WIP))
-
-## タスクリスト
-- [ ] DA の説明を書く (50%)
-- [ ] 頻出単語をまとめる (80%)
-- [ ] 各章の表現をまとめる (0%)
-
 # このページについて
 ガウスの Disquisitiones Arithmeticae (DA) についての情報をまとめます。
 
