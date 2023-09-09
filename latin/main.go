@@ -1,8 +1,13 @@
+// このスクリプトからの相対パス XXXX/words.toml を見て、
+// XXXX/YYYY-FILENAME.md にファイルを配置する。
+// 一応再帰的にファイルを見て、1 段下以外でも words.toml があれば反応する。
+
 package main
 
 import (
 	"log"
 	"os"
+	"path/filepath"
 
 	"github.com/BurntSushi/toml"
 )
@@ -21,7 +26,21 @@ func generateMarkdownFileForNoun(directory string, noun NounEntry) {
 }
 
 func main() {
-	directories := []string{"number-theory", "imperative-intro"}
+	directories := []string{}
+	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		basename := filepath.Base(path)
+		if !info.IsDir() && basename == "words.toml" {
+			log.Println(path)
+			dirname := filepath.Dir(path)
+			directories = append(directories, dirname)
+		}
+		return nil
+	})
+	check(err)
+
 	for _, directory := range directories {
 		dat, err := os.ReadFile(directory + "/words.toml")
 		if err != nil {
