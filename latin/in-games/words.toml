@@ -1,0 +1,25 @@
+[[nouns]]
+title = "sors"
+synopsis = "sors"
+genitive = "sortis"
+plural_genitive = "sortium"
+declension = 3
+gender = "feminine"
+translation = "運命"
+
+[[nouns]]
+title = "ira"
+synopsis = "īra"
+genitive = "īrae"
+declension = 1
+gender = "feminine"
+translation = "怒り"
+
+[[nouns]]
+title = "mors"
+synopsis = "mors"
+genitive = "mortis"
+plural_genitive = "mortium"
+declension = 3
+gender = "feminine"
+translation = "死"
