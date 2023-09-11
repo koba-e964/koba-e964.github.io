@@ -76,5 +76,12 @@ icon: ../latin.ico
 ## ` + noun.Filename + " (" + noun.Translation + ")\n" +
 		[]string{"男", "女", "中"}[noun.Noun.Gender] + "性名詞 第 " +
 		fmt.Sprintf("%d", int(noun.Noun.DeclensionType)) + " 変化名詞\n\n"
-	return header + makeMarkdownTable(columns, rows, table)
+	content := header + makeMarkdownTable(columns, rows, table)
+	if len(noun.Examples) != 0 {
+		content += "\n### 例文\n"
+		for _, example := range noun.Examples {
+			content += example.Latin + "\n\n" + example.Japanese + "\n\n"
+		}
+	}
+	return content
 }

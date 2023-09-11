@@ -5,6 +5,9 @@ genitive = "oculī"
 declension = 2
 gender = "masculine"
 translation = "目"
+[[nouns.examples]]
+latin = "**Qui**a vi**dē**runt **o**culī **me**ī salū**tā**re **tu**um."
+japanese = "なぜなら、私の目たちはあなたの救済を見たからだ。"
 
 [[nouns]]
 title = "robur"

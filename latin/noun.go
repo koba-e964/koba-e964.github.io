@@ -4,6 +4,10 @@ type NounEntry struct {
 	Noun        Noun
 	Filename    string
 	Translation string
+	Examples    []struct {
+		Latin    string `toml:"latin"`
+		Japanese string `toml:"japanese"`
+	}
 }
 
 type NounConfig struct {
@@ -14,6 +18,11 @@ type NounConfig struct {
 	Declension     int    `toml:"declension"`
 	Gender         string `toml:"gender"`
 	Translation    string `toml:"translation"`
+	// example sentence
+	Examples []struct {
+		Latin    string `toml:"latin"`
+		Japanese string `toml:"japanese"`
+	} `toml:"examples"`
 }
 
 func (conf NounConfig) ToNounEntry() NounEntry {
@@ -37,5 +46,6 @@ func (conf NounConfig) ToNounEntry() NounEntry {
 		Noun:        noun,
 		Filename:    conf.Title,
 		Translation: conf.Translation,
+		Examples:    conf.Examples,
 	}
 }

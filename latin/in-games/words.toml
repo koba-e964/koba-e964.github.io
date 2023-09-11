@@ -6,6 +6,9 @@ plural_genitive = "sortium"
 declension = 3
 gender = "feminine"
 translation = "運命"
+[[nouns.examples]]
+latin = "Sed prō **Bac**chō **mit**tunt **sor**tem."
+japanese = "そうではなく、バックスのために彼らは運命を投じるのだ。"
 
 [[nouns]]
 title = "ira"
@@ -14,6 +17,9 @@ genitive = "īrae"
 declension = 1
 gender = "feminine"
 translation = "怒り"
+[[nouns.examples]]
+latin = "**Di**ēs **ī**rae, **di**ēs **il**la **sol**vet **saec**lum in fa**vil**lā."
+japanese = "怒りの日、その日は世界を灰の中で粉々にするだろう。"
 
 [[nouns]]
 title = "mors"
