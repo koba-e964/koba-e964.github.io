@@ -1,0 +1,120 @@
+[[nouns]]
+title = "via"
+synopsis = "via"
+genitive = "viae"
+declension = 1
+gender = "feminine"
+translation = "道"
+[[nouns.examples]]
+latin = "Tran**sī**tis per **vi**am."
+japanese = "あなたたちは道を通って行く。"
+
+[[nouns]]
+title = "gloria"
+synopsis = "glōria"
+genitive = "glōriae"
+declension = 1
+gender = "feminine"
+translation = "栄光"
+
+[[nouns]]
+title = "dextera"
+synopsis = "dextera"
+genitive = "dexterae"
+declension = 1
+gender = "feminine"
+translation = "右側"
+
+[[nouns]]
+title = "vita"
+synopsis = "vīta"
+genitive = "vītae"
+declension = 1
+gender = "feminine"
+translation = "命"
+
+[[nouns]]
+title = "pax"
+synopsis = "pax"
+genitive = "pācis"
+plural_genitive = "pācum"
+declension = 3
+gender = "feminine"
+translation = "平和"
+
+[[nouns]]
+title = "deprecatio"
+synopsis = "dēprecātiō"
+genitive = "dēprecātiōnis"
+plural_genitive = "dēprecātiōnum"
+declension = 3
+gender = "feminine"
+translation = "祈り"
+
+[[nouns]]
+title = "pater"
+synopsis = "pater"
+genitive = "pātris"
+plural_genitive = "patrum"
+declension = 3
+gender = "masculine"
+translation = "父"
+
+[[nouns]]
+title = "factor"
+synopsis = "factor"
+genitive = "factōris"
+plural_genitive = "factorum"
+declension = 3
+gender = "masculine"
+translation = "作り手"
+
+[[nouns]]
+title = "requies"
+synopsis = "requiēs"
+genitive = "requiem"
+declension = 5
+gender = "feminine"
+translation = "安息"
+
+[[nouns]]
+title = "resurrectio"
+synopsis = "resurrectiō"
+genitive = "resurrectiōnis"
+plural_genitive = "resurrectiōnum"
+declension = 3
+gender = "feminine"
+translation = "復活"
+
+[[nouns]]
+title = "robur"
+synopsis = "rōbur"
+genitive = "rōburis"
+plural_genitive = "rōburum"
+declension = 3
+gender = "neuter"
+translation = "力"
+
+[[nouns]]
+title = "gratia"
+synopsis = "grātia"
+genitive = "grātiae"
+declension = 1
+gender = "feminine"
+translation = "感謝"
+
+[[nouns]]
+title = "vivus"
+synopsis = "vīvus"
+genitive = "vīvī"
+declension = 2
+gender = "masculine"
+translation = "生者"
+
+[[nouns]]
+title = "mortuus"
+synopsis = "mortuus"
+genitive = "mortuī"
+declension = 2
+gender = "masculine"
+translation = "死者"
