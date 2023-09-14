@@ -33,7 +33,7 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
 - 例 (単数):
   - -am で終わるパターン: [**vi**am](nom-acc-intro/noun-via), [**glō**riam](nom-acc-intro/noun-gloria), [**dex**teram](nom-acc-intro/noun-dextera), [**vī**tam](nom-acc-intro/noun-vita)
   - -um で終わるパターン: **De**um, pec**cā**tum, **Do**minum, **Spī**ritum
-  - -em で終わるパターン: [**pa**cem](nom-acc-intro/noun-pax), [dēprecāti**ō**nem](nom-acc-intro/noun-deprecatio), [**Pa**trem](nom-acc-intro/noun-pater), [fac**tō**rem](nom-acc-intro/noun-factor), [**re**quiem](nom-acc-intro/noun-requies)
+  - -em で終わるパターン: [**pā**cem](nom-acc-intro/noun-pax), [dēprecāti**ō**nem](nom-acc-intro/noun-deprecatio), [**Pa**trem](nom-acc-intro/noun-pater), [fac**tō**rem](nom-acc-intro/noun-factor), [**re**quiem](nom-acc-intro/noun-requies)
   - -im, -om で終わるパターン: ほとんどありません。見かけたら天然記念物として大切にしましょう。
 
 - 例文:
@@ -66,7 +66,7 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
   - -ās で終わるパターン: Scrip**tū**rās, Pro**phē**tās, [**grā**tiās](nom-acc-intro/noun-gratia)
   - -ōs で終わるパターン: [**vī**vōs](nom-acc-intro/noun-vivus), [**mor**tuōs](nom-acc-intro/noun-mortuus)
   - -ēs で終わるパターン: **ho**minēs
-  - -a で終わるパターン (中性名詞): **bo**na, **ma**la
+  - -a で終わるパターン (中性名詞): [**bo**na](nom-acc-intro/noun-bonum), [**ma**la](nom-acc-intro/noun-malum)
 
 - 例文:
   - [**Grā**tiās](nom-acc-intro/noun-gratia) **a**gimus **ti**bi **prop**ter **mag**nam **glō**riam **tu**am. (ミサ通常文 Gloria より)
@@ -74,9 +74,9 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
     - grātiās は gratia (感謝) の複数・対格です。agimus は「私たちはなす」なので、直訳は「私たちは感謝たちをなす」です。
   - jūdi**cā**re [**vī**vōs](nom-acc-intro/noun-vivus) et [**mor**tuōs](nom-acc-intro/noun-mortuus) (ミサ通常文 Credo より)
     - 訳: `生者たちと死者たちを裁くために`
-  - **Ma**la **nos**tra **pel**le, **bo**na **cunc**ta **pos**ce. ([歌詞](https://koba-e964.gitbook.io/choral-music-latin-trans/avemarisstella/3))
+  - [**Ma**la](nom-acc-intro/noun-malum) **nos**tra **pel**le, [**bo**na](nom-acc-intro/noun-bonum) **cunc**ta **pos**ce. ([歌詞](https://koba-e964.gitbook.io/choral-music-latin-trans/avemarisstella/3))
     - 訳: `私たちの悪を打ち破れ、すべての善を願え。`
-    - mala は malum (悪) の複数・対格で、bona は bonum (善) の複数・対格です。どちらも中性名詞なので主格も対格も同じ形ですが、ここでは文脈で目的語であろう (つまり対格であろう) と推測できます。
+    - mala は [malum (悪)](nom-acc-intro/noun-malum) の複数・対格で、bona は [bonum (善)](nom-acc-intro/noun-bonum) の複数・対格です。どちらも中性名詞なので主格も対格も同じ形ですが、ここでは文脈で目的語であろう (つまり対格であろう) と推測できます。
 
 注意: -ās で終わるパターンには抽象名詞の -itās で終わるパターンがあります。(英語の -ity に相当。) これらは全然複数対格ではないので注意しましょう。
 - 例: cāritās (charity, 隣人愛), vēritās (verity, 真実), vānitās (vanity, 空虚さ), castitās (chastity, 純潔), gravitās (gravity, 深刻さ)

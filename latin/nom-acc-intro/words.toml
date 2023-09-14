@@ -118,3 +118,19 @@ genitive = "mortuī"
 declension = 2
 gender = "masculine"
 translation = "死者"
+
+[[nouns]]
+title = "malum"
+synopsis = "malum"
+genitive = "malī"
+declension = 2
+gender = "neuter"
+translation = "悪"
+
+[[nouns]]
+title = "bonum"
+synopsis = "bonum"
+genitive = "bonī"
+declension = 2
+gender = "neuter"
+translation = "善"
