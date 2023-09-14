@@ -32,7 +32,7 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
 
 - 例 (単数):
   - -am で終わるパターン: [**vi**am](nom-acc-intro/noun-via), [**glō**riam](nom-acc-intro/noun-gloria), [**dex**teram](nom-acc-intro/noun-dextera), [**vī**tam](nom-acc-intro/noun-vita)
-  - -um で終わるパターン: **De**um, pec**cā**tum, **Do**minum, **Spī**ritum
+  - -um で終わるパターン: **De**um, [pec**cā**tum](nom-acc-intro/noun-peccatum), [**Do**minum](nom-acc-intro/noun-Dominus), [**Spī**ritum](nom-acc-intro/noun-spiritus)
   - -em で終わるパターン: [**pā**cem](nom-acc-intro/noun-pax), [dēprecāti**ō**nem](nom-acc-intro/noun-deprecatio), [**Pa**trem](nom-acc-intro/noun-pater), [fac**tō**rem](nom-acc-intro/noun-factor), [**re**quiem](nom-acc-intro/noun-requies)
   - -im, -om で終わるパターン: ほとんどありません。見かけたら天然記念物として大切にしましょう。
 
@@ -67,6 +67,8 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
   - -ōs で終わるパターン: [**vī**vōs](nom-acc-intro/noun-vivus), [**mor**tuōs](nom-acc-intro/noun-mortuus)
   - -ēs で終わるパターン: **ho**minēs
   - -a で終わるパターン (中性名詞): [**bo**na](nom-acc-intro/noun-bonum), [**ma**la](nom-acc-intro/noun-malum)
+  - -ūs で終わるパターン: **ma**nūs
+    - 頻度はそれほど多くないはずです。筆者は in **ma**nūs **tu**ās com**men**dō **spī**ritum **me**um (`私はあなたの手たちへと私の魂を委ねる`) でしか見たことがありません。
 
 - 例文:
   - [**Grā**tiās](nom-acc-intro/noun-gratia) **a**gimus **ti**bi **prop**ter **mag**nam **glō**riam **tu**am. (ミサ通常文 Gloria より)

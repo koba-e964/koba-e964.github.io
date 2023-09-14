@@ -34,6 +34,30 @@ gender = "feminine"
 translation = "命"
 
 [[nouns]]
+title = "peccatum"
+synopsis = "peccātum"
+genitive = "peccātī"
+declension = 2
+gender = "neuter"
+translation = "罪"
+
+[[nouns]]
+title = "Dominus"
+synopsis = "Dominus"
+genitive = "Dominī"
+declension = 2
+gender = "masculine"
+translation = "主"
+
+[[nouns]]
+title = "spiritus"
+synopsis = "spīritus"
+genitive = "spīritūs"
+declension = 4
+gender = "masculine"
+translation = "魂"
+
+[[nouns]]
 title = "pax"
 synopsis = "pax"
 genitive = "pācis"
