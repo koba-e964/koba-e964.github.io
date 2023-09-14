@@ -5,10 +5,10 @@ icon: ./latin.ico
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/主語・目的語入門
 
-WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
+(Status: ![WIP](https://progress-bar.dev/60?title=WIP))
 
 - 対格について書く: 80%
-- 主格について書く: 0%
+- 主格について書く: 40%
 
 # このページについて
 ラテン語の主語と目的語について、簡単に入門します。ラテン語文を読んだ時に大体目的語っぽいものを判別できるようになることが目標です。
@@ -53,7 +53,7 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
 
 
 注意 2: -m で終わらないのに対格である場合があります。
-中性名詞と呼ばれるカテゴリーで、これらの名詞は主格と対格が常に同じ形です。このルールは先ほどの「単数対格は -m で終わる」という法則よりはるかに強いです。
+中性名詞と呼ばれるカテゴリーで、これらの名詞は主格と対格が<u>**常に同じ形**</u>です。このルールは先ほどの「単数対格は -m で終わる」という法則よりはるかに強いです。
 - 例: Dā [**rō**bur](nom-acc-intro/noun-robur).
   - 訳: `力を与えろ。`
   - rōbur は中性名詞なので、単数対格は rōburem などにはならず rōbur のままです。
@@ -67,8 +67,8 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
   - -ōs で終わるパターン: [**vī**vōs](nom-acc-intro/noun-vivus), [**mor**tuōs](nom-acc-intro/noun-mortuus)
   - -ēs で終わるパターン: **ho**minēs
   - -a で終わるパターン (中性名詞): [**bo**na](nom-acc-intro/noun-bonum), [**ma**la](nom-acc-intro/noun-malum)
-  - -ūs で終わるパターン: **ma**nūs
-    - 頻度はそれほど多くないはずです。筆者は in **ma**nūs **tu**ās com**men**dō **spī**ritum **me**um (`私はあなたの手たちへと私の魂を委ねる`) でしか見たことがありません。
+  - -ūs で終わるパターン: [**ma**nūs](nom-acc-intro/noun-manus)
+    - 頻度はそれほど多くないはずです。筆者は in **ma**nūs **tu**ās com**men**dō **spī**ritum **me**um (`私はあなたの両手へと私の魂を委ねる`) でしか見たことがありません。
 
 - 例文:
   - [**Grā**tiās](nom-acc-intro/noun-gratia) **a**gimus **ti**bi **prop**ter **mag**nam **glō**riam **tu**am. (ミサ通常文 Gloria より)
@@ -82,3 +82,55 @@ WIP: ![WIP](https://progress-bar.dev/40?title=WIP)
 
 注意: -ās で終わるパターンには抽象名詞の -itās で終わるパターンがあります。(英語の -ity に相当。) これらは全然複数対格ではないので注意しましょう。
 - 例: cāritās (charity, 隣人愛), vēritās (verity, 真実), vānitās (vanity, 空虚さ), castitās (chastity, 純潔), gravitās (gravity, 深刻さ)
+
+## 主格
+色々な形をとります。辞書に載っている形なので、見かけた時に辞書で調べることは比較的簡単です。
+
+以下に、主格の単数形と複数形を載せます。英語でもこのような複数形になる単語があるので、馴染みのある方もいらっしゃるでしょう。
+
+||-us|-a|-um|その他|
+|--|--|--|--|--|
+|単数|-us|-a|-um|その他|
+|複数|-ī|-ae|-a|-ēs|
+
+例です。
+
+||-us|-a|-um|その他|
+|--|--|--|--|--|
+|単数|focus, alumnus|formula, alumna|stadium|index, vertex|
+|複数|focī, alumnī|formulae, alumnae|stadia|indicēs, verticēs|
+
+
+## 主格、単数
+-us, -a, -um は言うに及ばず、さらに -s とか -x で終わっていたら主格です。ただし -is で終わっていたら主格でないことの方が多いです。
+
+- 例 (単数):
+  - -us で終わるパターン: [**Do**minus](nom-acc-intro/noun-Dominus), [**Spī**ritus](nom-acc-intro/noun-spiritus)
+  - -um で終わるパターン: [pec**cā**tum](nom-acc-intro/noun-peccatum), mystērium, sacrāmentum
+    - 「中性名詞は主格と対格が同じ形」という話を思い出しましょう。
+  - -s で終わるパターン: [**re**quies](nom-acc-intro/noun-requies)
+  - -x で終わるパターン: [pax](nom-acc-intro/noun-pax)
+  - -a で終わるパターン: [**vi**a](nom-acc-intro/noun-via), [**glō**ria](nom-acc-intro/noun-gloria), [**dex**tera](nom-acc-intro/noun-dextera), [**vī**ta](nom-acc-intro/noun-vita)
+
+- 例文:
+  - [**Do**minus](nom-acc-intro/noun-Dominus) **tē**cum.
+    - 訳: `主はあなたと共にある。`
+    - [**Do**minus](nom-acc-intro/noun-Dominus) は「主」を意味します。
+    - **tē**cum は「あなたと共に」を意味する単語です。
+  - Be**ā**tī **quō**rum [**vi**a](nom-acc-intro/noun-via) **in**tegra est.
+    - 訳: `道が汚れていない者たちは幸福である。`
+    - [**vi**a](nom-acc-intro/noun-via) は単数・主格です。「道が」を意味します。integra は形容詞 integer (完全な、汚れていない) の女性・単数・主格であって、via にかかります。
+  - In **ter**rā [pax](nom-acc-intro/noun-pax) ho**mi**nibus **bo**nae volun**tā**tis. (ミサ通常文 Gloria より)
+    - 訳: `地において、平和が善意の人間たちにありますように。`
+    - [pax](nom-acc-intro/noun-pax) は単数・主格です。「平和が」を意味し、この文の主語です。
+  - Tū **sō**lus [**Do**minus](nom-acc-intro/noun-Dominus) (es). (ミサ通常文 Gloria より)
+    - 訳: `あなただけが主である。`
+    - [**Do**minus](nom-acc-intro/noun-Dominus) は「主」を意味します。
+    - **sō**lus は「唯一の」を意味する形容詞です。
+    - es は「…である」を意味する単語です。ここでは tū (あなた) が主語で **Do**minus は補語ですが、英語などと違い es の補語は主格にします。英語では It's me. や It's him. などのように、be 動詞の補語は目的格 (ラテン語の対格に相当) にするのでした。
+  - **Sanc**ta Ma**rī**a, **mā**ter **De**ī.
+    - 訳: `聖なるマリーアよ、神の母よ。`
+    - 主格は呼びかけにも使います。呼びかけに使われる格を「呼格」と呼ぶ流儀もありますが、多くの場合で主格と同じです。
+  - [**Do**mine](nom-acc-intro/noun-Dominus), **Fī**lī ūni**ge**nite.
+    - 訳: `主よ、唯一生み出された子よ。`
+    - 呼びかけの時だけ主格から外れることもあります。**Do**mine は [**Do**minus](nom-acc-intro/noun-Dominus) (主) の呼びかけの形、**Fī**lī は **Fī**lius (子) の呼びかけの形、ūni**ge**nite は ūni**ge**nitus (唯一生み出された、お気に入りの) の呼びかけの形です。こういった場合については、呼びかけであることは明らかなことが多いので、形が多少変わることもあると覚えておけば良いはずです。

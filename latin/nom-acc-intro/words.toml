@@ -24,6 +24,9 @@ genitive = "dexterae"
 declension = 1
 gender = "feminine"
 translation = "右側"
+[[nouns.examples]]
+latin = "**Il**lī mens est **mi**sera quī nec **vī**vit nec las**cī**vit sub es**tā**tis **dex**terā."
+japanese = "夏の右手 (制御権) の下にありながら、活発になろうともせず、跳ね回ろうともしない、そんな奴の心は惨めだ。"
 
 [[nouns]]
 title = "vita"
@@ -65,6 +68,12 @@ plural_genitive = "pācum"
 declension = 3
 gender = "feminine"
 translation = "平和"
+[[nouns.examples]]
+latin = "In **ter**rā pax ho**mi**nibus **bo**nae volun**tā**tis."
+japanese = "地において、平和が善意の人間たちにありますように。"
+[[nouns.examples]]
+latin = "**Il**lī sunt in **pā**ce."
+japanese = "彼らは平和のうちにいる。"
 
 [[nouns]]
 title = "deprecatio"
@@ -142,6 +151,17 @@ genitive = "mortuī"
 declension = 2
 gender = "masculine"
 translation = "死者"
+
+[[nouns]]
+title = "manus"
+synopsis = "manus"
+genitive = "manūs"
+declension = 4
+gender = "feminine"
+translation = "手"
+[[nouns.examples]]
+latin = "**Pa**ter, in **ma**nūs **tu**ās com**men**dō **spī**ritum **me**um."
+japanese = "父よ、私はあなたの両手へと私の魂を委ねる。"
 
 [[nouns]]
 title = "malum"
