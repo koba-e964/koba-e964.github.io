@@ -1,0 +1,34 @@
+[[nouns]]
+title = "adjutor"
+synopsis = "adjūtor"
+genitive = "adjūtōris"
+plural_genitive = "adjūtōrum"
+declension = 3
+gender = "masculine"
+translation = "救い手"
+
+[[nouns]]
+title = "canticum"
+synopsis = "canticum"
+genitive = "canticī"
+declension = 2
+gender = "neuter"
+translation = "歌"
+
+[[nouns]]
+title = "dolor"
+synopsis = "dolor"
+genitive = "dolōris"
+plural_genitive = "dolōrum"
+declension = 3
+gender = "masculine"
+translation = "悲しみ"
+
+[[nouns]]
+title = "mors"
+synopsis = "mors"
+genitive = "mortis"
+plural_genitive = "mortium"
+declension = 3
+gender = "feminine"
+translation = "死"

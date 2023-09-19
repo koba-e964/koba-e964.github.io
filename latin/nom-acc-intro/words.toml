@@ -29,6 +29,15 @@ latin = "**Il**lī mens est **mi**sera quī nec **vī**vit nec las**cī**vit sub
 japanese = "夏の右手 (制御権) の下にありながら、活発になろうともせず、跳ね回ろうともしない、そんな奴の心は惨めだ。"
 
 [[nouns]]
+title = "dolor"
+synopsis = "dolor"
+genitive = "dolōris"
+plural_genitive = "dolōrum"
+declension = 3
+gender = "masculine"
+translation = "悲しみ"
+
+[[nouns]]
 title = "vita"
 synopsis = "vīta"
 genitive = "vītae"

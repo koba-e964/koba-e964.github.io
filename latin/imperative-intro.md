@@ -21,7 +21,7 @@ icon: ./latin.ico
 |**bū**cinā|būci**nā**te|`吹き鳴らせ`|[**bū**cinō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=bucino)[^1]|
 |dā|**dā**te|`与えろ`|[dō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=do)|
 |ex**sul**tā|exsul**tā**te|`喜べ`|[ex**sul**tō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=exsulto)|
-|fer|ferte|`もたらせ`|[ferō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=fero)|
+|fer|**fer**te|`もたらせ`|[**fe**rō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=fero)|
 |**jū**bilā|jūbi**lā**te|`叫べ`/`喜べ`|[**jū**bilō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=iubilo)|
 |**sū**me|**sū**mite|`始めろ`/`取れ`|[**sū**mō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=sumo)|
 |**vi**dē|vi**dē**te|`見ろ`|[**vi**deō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=video)|
@@ -32,14 +32,20 @@ icon: ./latin.ico
 - 単数の例
   - Dā **rō**bur, fer [au**xi**lium](imperative-intro/noun-auxilium).
     - 訳: `(あなたは) 力を与えろ、助けをもたらせ。`
-  - Dā **mi**hi [**mor**tem](imperative-intro/noun-mors) **i**terum.
+  - Dā **mi**hi [**mor**tem](common/noun-mors) **i**terum.
     - 訳: `(あなたは) 再び私に死を与えろ。`
+  - Ex**au**dī ōrāti**ō**nem **me**am.
+    - 訳: `(あなたは) 私の祈りを聞き入れろ。`
+  - **Ō**rā prō **nō**bīs.
+    - 訳: `(あなたは) 私たちのために祈れ。`
 - 複数の例
+  - Exsul**tā**te **De**ō [adjū**tō**rī](common/noun-adjutor) **nos**trō. (『詩篇』第 80 章第 2 節)
+    - 訳: `(あなたたちは) 私たちの救い手である神に喜び躍れ。` ([参考資料](https://note.com/efi/n/nb657b4522e50))
   - At**ten**dite et vi**dē**te. (『哀歌』第 1 章第 12 節)
     - 訳: `(あなたたちは) 注意を払え、そして見ろ。`
-  - Vi**dē**te [do**lō**rem](imperative-intro/noun-dolor) **me**um. (『哀歌』第 1 章第 18 節)
+  - Vi**dē**te [do**lō**rem](common/noun-dolor) **me**um. (『哀歌』第 1 章第 18 節)
     - 訳: `(あなたたちは) 私の苦しみを見ろ。`
-  - Can**tā**te [**Do**minō](imperative-intro/noun-dominus) [**can**ticum](imperative-intro/noun-canticum) **no**vum. (『詩篇』第 149 章第 1 節)
+  - Can**tā**te [**Do**minō](imperative-intro/noun-dominus) [**can**ticum](common/noun-canticum) **no**vum. (『詩篇』第 149 章第 1 節)
     - 訳: `(あなたたちは) 主に向かって新しい歌を歌え。`
 
 ### 注意
@@ -57,9 +63,10 @@ icon: ./latin.ico
 ## 参考資料
 - [ラテン語の命令法 - 山下太郎のラテン語入門](https://aeneis.jp/?p=8214)
   - 当記事で `命令形` と呼んでいたものは正式には `命令法・能動態・現在` です。
-- 歌詞資料 (Exsultate Deo)
+- 歌詞資料 (Exsul**ta**te **De**o)
   - CPDL: [https://www.cpdl.org/wiki/index.php/Psalm_81](https://www.cpdl.org/wiki/index.php/Psalm_81)
   - 日本語訳: TODO
-- 歌詞資料 (O vos omnes)
+- 歌詞資料 (O vos **om**nes)
   - CPDL: [https://www.cpdl.org/wiki/index.php/O_vos_omnes](https://www.cpdl.org/wiki/index.php/O_vos_omnes)
   - 日本語訳: TODO
+- 歌詞資料 (O salu**ta**ris **Hos**tia)

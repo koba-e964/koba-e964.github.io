@@ -16,7 +16,7 @@ icon: ./latin.ico
 ラテン語作文ができるようになることは目標としていないので、その話は一切しません。
 
 # 主格・対格について
-ラテン語には 5 個の格 (主格・属格・与格・対格・奪格) があり[^where-is-vocative]、文章の単語はすべてこれらのうちのいずれかに分類できます。これらのうちのいずれになるかによって、単語の語尾がわずかに変化することになります。
+ラテン語には 5 個の格 (主格・属格・与格・対格・奪格) があり[^where-is-vocative]、文章中の名詞・形容詞はすべてこれらのうちのいずれかに分類できます。これらのうちのいずれになるかによって、単語の語尾がわずかに変化することになります。
 
 これらのうち出現頻度が高く文章の基本となるのは主格・対格の 2 種類です。この文書ではこれらにフォーカスし、ラテン語文の核が大まかに分かるようになることを目標とします。
 
@@ -43,13 +43,17 @@ icon: ./latin.ico
   - **Grā**tiās **a**gimus **ti**bi **prop**ter **mag**nam [**glō**riam](nom-acc-intro/noun-gloria) **tu**am. (ミサ通常文 Gloria より)
     - 訳: `あなたの大いなる栄光を理由として、私たちはあなたに感謝する。`
     - propter は「〜ゆえに」を意味する前置詞で、対格を取ります。magnam は「大きい」を意味する形容詞 magnus の女性・単数・対格、tuam は「あなたの」を意味する形容詞 tuus の女性・単数・対格です。形容詞で修飾された語が対格になる場合、形容詞も含め全てが対格になります。(そのためここでの magnam, gloriam, tuam すべてが対格です。)
+  - Vi**dē**te [do**lō**rem](nom-acc-intro/noun-dolor) **me**um. (『哀歌』第 1 章第 18 節)
+    - 訳: `(あなたたちは) 私の苦しみを見ろ。`
+  - Can**tā**te [**Do**minō](nom-acc-intro/noun-Dominus) [**can**ticum](common/noun-canticum) **no**vum. (『詩篇』第 149 章第 1 節)
+    - 訳: `(あなたたちは) 主に向かって新しい歌を歌え。`
 
 注意 1: -um で終わっても対格ではない場合があります。
 複数属格 (「…たちの」) というパターンです。
 -ārum, -ōrum のパターンは割と発見しやすいです (in saecula saeculōrum など)。それ以外の -um で終わるパターン (vīsibilium omnium (すべての見えるものたちの) など) は個別対応しかないでしょう。
-- 例: Et exspectō [resurrectiōnem](nom-acc-intro/noun-resurrectio) [mortuōrum](nom-acc-intro/noun-mortuus). (ミサ通常文 Credo より)
+- 例: Et ex**spec**tō [resurrecti**ō**nem](nom-acc-intro/noun-resurrectio) [mortu**ō**rum](nom-acc-intro/noun-mortuus). (ミサ通常文 Credo より)
     - 訳: `そして私は、死者たちの復活を待ち望む。`
-    - resurrectiōnem は「復活を」を意味し (単数・対格)、mortuōrum は「死者たちの」を意味します (複数・属格)。
+    - resurrecti**ō**nem は「復活を」を意味し (単数・対格)、mortu**ō**rum は「死者たちの」を意味します (複数・属格)。
 
 
 注意 2: -m で終わらないのに対格である場合があります。
@@ -117,6 +121,9 @@ icon: ./latin.ico
     - 訳: `主はあなたと共にある。`
     - [**Do**minus](nom-acc-intro/noun-Dominus) は「主」を意味します。
     - **tē**cum は「あなたと共に」を意味する単語です。
+  - **U**bi **cā**ritās et **a**mor, **De**us **i**bi est.
+    - 訳: `慈悲と愛のあるところに、神はいる。`
+    - 
   - Be**ā**tī **quō**rum [**vi**a](nom-acc-intro/noun-via) **in**tegra est.
     - 訳: `道が汚れていない者たちは幸福である。`
     - [**vi**a](nom-acc-intro/noun-via) は単数・主格です。「道が」を意味します。integra は形容詞 integer (完全な、汚れていない) の女性・単数・主格であって、via にかかります。
