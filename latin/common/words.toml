@@ -23,6 +23,12 @@ plural_genitive = "dolōrum"
 declension = 3
 gender = "masculine"
 translation = "悲しみ"
+[[nouns.examples]]
+latin = "Vi**dē**te do**lō**rem **me**um. (『哀歌』第 1 章第 18 節)"
+japanese = "(あなたたちは) 私の苦しみを見ろ。"
+[[nouns.examples]]
+latin = "quī do**lō**rem **ip**sum **qui**a **do**lor sit **a**met"
+japanese = "悲しみ自身を、それが悲しみであるゆえに愛する者"
 
 [[nouns]]
 title = "mors"
@@ -32,3 +38,12 @@ plural_genitive = "mortium"
 declension = 3
 gender = "feminine"
 translation = "死"
+[[nouns.examples]]
+latin = "Dā **mi**hi **mor**tem **i**terum."
+japanese = "(あなたは) 再び私に死を与えろ。"
+[[nouns.examples]]
+latin = "**Es**tō **nō**bīs praegus**tā**tum **mor**tis in ex**ā**mine."
+japanese = "(あなたは) 死の試練において、私たちのためにあらかじめ試練を試す者となれ。"
+[[nouns.examples]]
+latin = "**I**bi **nul**lus **ti**met **mor**tem."
+japanese = "ここでは誰も死を恐れない。"

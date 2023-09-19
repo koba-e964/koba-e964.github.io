@@ -5,11 +5,11 @@ icon: ./latin.ico
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/命令形入門
 
-(Status: ![WIP](https://progress-bar.dev/80/?title=WIP))
+(Status: ![WIP](https://progress-bar.dev/90/?title=WIP))
 
 ラテン語の命令形には単数・複数の 2 通りがあります。
 
-[Exsultate Deo](https://www.vctokyo.jp/images/20150406/poulenc.pdf) と [O vos omnes](http://medmus.sakura.ne.jp/TEXT17/text_17_26.html) を例にして説明します。
+[Exsultate Deo](https://www.vctokyo.jp/images/20150406/poulenc.pdf), [O vos omnes](http://medmus.sakura.ne.jp/TEXT17/text_17_26.html), O salutaris Hostia を例にして説明します。
 
 ## 語彙
 使われている単語をまとめます。なお[アクセント](https://aeneis.jp/?p=3325)のある位置は太字で示しています。
@@ -26,7 +26,7 @@ icon: ./latin.ico
 |**sū**me|**sū**mite|`始めろ`/`取れ`|[**sū**mō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=sumo)|
 |**vi**dē|vi**dē**te|`見ろ`|[**vi**deō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=video)|
 
--te で終わると多くの場合で複数に対する命令形、そうでない場合は単数に対する命令形です。Exsultate Deo や O vos omnes では複数に対する命令文だけで詩が構成されています。
+-te で終わると多くの場合で複数に対する命令形、そうでない場合は単数に対する命令形です。Ex**sul**tate Deo や O vos **om**nes では複数に対する命令文だけで詩が構成されています。
 
 ## 例文
 - 単数の例
@@ -65,8 +65,10 @@ icon: ./latin.ico
   - 当記事で `命令形` と呼んでいたものは正式には `命令法・能動態・現在` です。
 - 歌詞資料 (Exsul**ta**te **De**o)
   - CPDL: [https://www.cpdl.org/wiki/index.php/Psalm_81](https://www.cpdl.org/wiki/index.php/Psalm_81)
-  - 日本語訳: TODO
+  - 日本語訳: [https://www.vctokyo.jp/images/20150406/poulenc.pdf](https://www.vctokyo.jp/images/20150406/poulenc.pdf)
 - 歌詞資料 (O vos **om**nes)
   - CPDL: [https://www.cpdl.org/wiki/index.php/O_vos_omnes](https://www.cpdl.org/wiki/index.php/O_vos_omnes)
-  - 日本語訳: TODO
+  - 日本語訳: [http://medmus.sakura.ne.jp/TEXT17/text_17_26.html](http://medmus.sakura.ne.jp/TEXT17/text_17_26.html)
 - 歌詞資料 (O salu**ta**ris **Hos**tia)
+  - CPDL: [https://www.cpdl.org/wiki/index.php/O_salutaris_hostia](https://www.cpdl.org/wiki/index.php/O_salutaris_hostia)
+  - 日本語訳: TODO: 信頼できる日本語の資料がないので自分で作る。大体が、与格である Uni trinoque Domino を呼びかけだと思って訳している。
