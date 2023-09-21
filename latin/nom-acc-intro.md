@@ -5,8 +5,9 @@ icon: ./latin.ico
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/主語・目的語入門
 
-(Status: ![WIP](https://progress-bar.dev/60?title=WIP))
+(Status: ![WIP](https://progress-bar.dev/47?title=WIP))
 
+- 文構造について書く: 20%
 - 対格について書く: 80%
 - 主格について書く: 40%
 
@@ -14,6 +15,13 @@ icon: ./latin.ico
 ラテン語の主語と目的語について、簡単に入門します。ラテン語文を読んだ時に大体目的語っぽいものを判別できるようになることが目標です。
 
 ラテン語作文ができるようになることは目標としていないので、その話は一切しません。
+
+# ラテン語の文構造について
+
+SV(O)
+
+S は省略されることもある。
+
 
 # 主格・対格について
 ラテン語には 5 個の格 (主格・属格・与格・対格・奪格) があり[^where-is-vocative]、文章中の名詞・形容詞はすべてこれらのうちのいずれかに分類できます。これらのうちのいずれになるかによって、単語の語尾がわずかに変化することになります。
@@ -35,6 +43,7 @@ icon: ./latin.ico
   - -um で終わるパターン: **De**um, [pec**cā**tum](nom-acc-intro/noun-peccatum), [**Do**minum](nom-acc-intro/noun-Dominus), [**Spī**ritum](nom-acc-intro/noun-spiritus)
   - -em で終わるパターン: [**pā**cem](nom-acc-intro/noun-pax), [dēprecāti**ō**nem](nom-acc-intro/noun-deprecatio), [**Pa**trem](nom-acc-intro/noun-pater), [fac**tō**rem](nom-acc-intro/noun-factor), [**re**quiem](nom-acc-intro/noun-requies)
   - -im, -om で終わるパターン: ほとんどありません。見かけたら天然記念物として大切にしましょう。
+    - **tur**rim (塔を), vim (強さを) あたりが例です。
 
 - 例文:
   - **Dō**nā **nō**bīs [**pa**cem](nom-acc-intro/noun-pax), et **dō**nā **e**īs [**re**quiem](nom-acc-intro/noun-requies).
@@ -47,6 +56,12 @@ icon: ./latin.ico
     - 訳: `(あなたたちは) 私の苦しみを見ろ。`
   - Can**tā**te [**Do**minō](nom-acc-intro/noun-Dominus) [**can**ticum](common/noun-canticum) **no**vum. (『詩篇』第 149 章第 1 節)
     - 訳: `(あなたたちは) 主に向かって新しい歌を歌え。`
+  - **Quō**modo con**ver**sa es in amāri**tū**dinem?
+    - 訳: `どのようにあなたは苦さへと変わってしまったのか?` (= `どのようにあなたは苦くなってしまったのか?`)
+    - 前置詞 in の後に対格が来たら「〜へ」と解釈します。英語の into です。
+  - Ō **mag**num mys**tē**rium, ut [ani**ma**lia](common/noun-animal) vi**dē**rent **Do**minum **nā**tum.
+    - 訳: `おお、大いなる神秘よ、動物たちが生まれた主を見たというのは。`
+    - **Do**minum **nā**tum が単数・対格です。
 
 注意 1: -um で終わっても対格ではない場合があります。
 複数属格 (「…たちの」) というパターンです。
@@ -55,20 +70,19 @@ icon: ./latin.ico
     - 訳: `そして私は、死者たちの復活を待ち望む。`
     - resurrecti**ō**nem は「復活を」を意味し (単数・対格)、mortu**ō**rum は「死者たちの」を意味します (複数・属格)。
 
-
 注意 2: -m で終わらないのに対格である場合があります。
 中性名詞と呼ばれるカテゴリーで、これらの名詞は主格と対格が<u>**常に同じ形**</u>です。このルールは先ほどの「単数対格は -m で終わる」という法則よりはるかに強いです。
 - 例: Dā [**rō**bur](nom-acc-intro/noun-robur).
   - 訳: `力を与えろ。`
-  - rōbur は中性名詞なので、単数対格は rōburem などにはならず rōbur のままです。
+  - **rō**bur は中性名詞なので、単数対格は rōburem などにはならず **rō**bur のままです。
 
 
 ## 対格、複数
 複数の場合、単数の場合より区別が難しいです。-ās, -ōs, -ēs あたりの語尾で区別しましょう。幸いなことに頻度もそんなに多くないです。
 
 - 例 (複数):
-  - -ās で終わるパターン: Scrip**tū**rās, Pro**phē**tās, [**grā**tiās](nom-acc-intro/noun-gratia)
-  - -ōs で終わるパターン: [**vī**vōs](nom-acc-intro/noun-vivus), [**mor**tuōs](nom-acc-intro/noun-mortuus)
+  - -ās で終わるパターン: Scrip**tū**rās, [Pro**phē**tās](common/noun-propheta), [**grā**tiās](nom-acc-intro/noun-gratia)
+  - -ōs で終わるパターン: [**vī**vōs](nom-acc-intro/noun-vivus), [**mor**tuōs](nom-acc-intro/noun-mortuus), deōs
   - -ēs で終わるパターン: **ho**minēs
   - -a で終わるパターン (中性名詞): [**bo**na](nom-acc-intro/noun-bonum), [**ma**la](nom-acc-intro/noun-malum)
   - -ūs で終わるパターン: [**ma**nūs](nom-acc-intro/noun-manus)
@@ -77,9 +91,16 @@ icon: ./latin.ico
 - 例文:
   - [**Grā**tiās](nom-acc-intro/noun-gratia) **a**gimus **ti**bi **prop**ter **mag**nam **glō**riam **tu**am. (ミサ通常文 Gloria より)
     - 訳: `あなたの大いなる栄光を理由として、私たちはあなたに感謝する。`
-    - grātiās は gratia (感謝) の複数・対格です。agimus は「私たちはなす」なので、直訳は「私たちは感謝たちをなす」です。
+    - grātiās は grātia (感謝) の複数・対格です。agimus は「私たちはなす」なので、直訳は「私たちは感謝たちをなす」です。
   - jūdi**cā**re [**vī**vōs](nom-acc-intro/noun-vivus) et [**mor**tuōs](nom-acc-intro/noun-mortuus) (ミサ通常文 Credo より)
     - 訳: `生者たちと死者たちを裁くために`
+    - **vī**vōs は **vī**vus (生者) の複数・対格です。**mor**tuōs は **mor**tuus (死者) の複数・対格です。
+  - **Quo**niam **mag**nus **De**us est **su**per **om**nēs **de**ōs.
+    - 訳: `なぜなら、神は (他の) すべての神々の上にあり、偉大であるからだ。`
+    - **de**ōs は **de**us (神) の複数・対格です。**De**us は大文字始まりなので、キリスト教の神のことを指しています。その後の **de**ōs は小文字始まりなので、それ以外のもろもろの神々のことを指します。
+  - Lo**cū**tus est per [Pro**phē**tās](common/noun-propheta).
+    - 訳: `それは預言者たちを通して語った。`
+    - Pro**phē**tās は Pro**phē**ta (預言者) の複数・対格です。per は対格をとって「〜を通して」と訳すので、per Pro**phē**tās は「預言者たちを通して」です。
   - [**Ma**la](nom-acc-intro/noun-malum) **nos**tra **pel**le, [**bo**na](nom-acc-intro/noun-bonum) **cunc**ta **pos**ce. ([歌詞](https://koba-e964.gitbook.io/choral-music-latin-trans/avemarisstella/3))
     - 訳: `私たちの悪を打ち破れ、すべての善を願え。`
     - mala は [malum (悪)](nom-acc-intro/noun-malum) の複数・対格で、bona は [bonum (善)](nom-acc-intro/noun-bonum) の複数・対格です。どちらも中性名詞なので主格も対格も同じ形ですが、ここでは文脈で目的語であろう (つまり対格であろう) と推測できます。

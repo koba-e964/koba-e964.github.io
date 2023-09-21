@@ -8,6 +8,15 @@ gender = "masculine"
 translation = "救い手"
 
 [[nouns]]
+title = "animal"
+synopsis = "animal"
+genitive = "animalis"
+plural_genitive = "animalium"
+declension = 3
+gender = "neuter"
+translation = "動物"
+
+[[nouns]]
 title = "canticum"
 synopsis = "canticum"
 genitive = "canticī"
@@ -47,3 +56,14 @@ japanese = "(あなたは) 死の試練において、私たちのためにあ�
 [[nouns.examples]]
 latin = "**I**bi **nul**lus **ti**met **mor**tem."
 japanese = "ここでは誰も死を恐れない。"
+
+[[nouns]]
+title = "propheta"
+synopsis = "prophēta"
+genitive = "prophētae"
+declension = 1
+gender = "masculine"
+translation = "預言者"
+[[nouns.examples]]
+latin = "Quī lo**cū**tus est per Pro**phē**tās."
+japanese = "それは預言者たちを通して語った。"
