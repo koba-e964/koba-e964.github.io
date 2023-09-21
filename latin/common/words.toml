@@ -8,6 +8,20 @@ gender = "masculine"
 translation = "救い手"
 
 [[nouns]]
+title = "anima"
+synopsis = "anima"
+genitive = "animae"
+declension = 1
+gender = "feminine"
+translation = "魂"
+[[nouns.examples]]
+latin = "**Tris**tis est **a**nima **me**a."
+japanese = "私の魂は悲しい。"
+[[nouns.examples]]
+latin = "Jus**tō**rum **a**nimae in **ma**nū **De**ī sunt."
+japanese = "正しい者たちの魂たちは神の手の中にある。"
+
+[[nouns]]
 title = "animal"
 synopsis = "animal"
 genitive = "animalis"
@@ -38,6 +52,18 @@ japanese = "(あなたたちは) 私の苦しみを見ろ。"
 [[nouns.examples]]
 latin = "quī do**lō**rem **ip**sum **qui**a **do**lor sit **a**met"
 japanese = "悲しみ自身を、それが悲しみであるゆえに愛する者"
+
+[[nouns]]
+title = "mare"
+synopsis = "mare"
+genitive = "maris"
+plural_genitive = "marium"
+declension = 3
+gender = "neuter"
+translation = "海"
+[[nouns.examples]]
+latin = "Avē, maris stella."
+japanese = "こんにちは、海の星よ。"
 
 [[nouns]]
 title = "mors"

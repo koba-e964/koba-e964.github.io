@@ -5,11 +5,11 @@ icon: ./latin.ico
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/主語・目的語入門
 
-(Status: ![WIP](https://progress-bar.dev/47?title=WIP))
+(Status: ![WIP](https://progress-bar.dev/60?title=WIP))
 
 - 文構造について書く: 20%
 - 対格について書く: 80%
-- 主格について書く: 40%
+- 主格について書く: 80%
 
 # このページについて
 ラテン語の主語と目的語について、簡単に入門します。ラテン語文を読んだ時に大体目的語っぽいものを判別できるようになることが目標です。
@@ -133,7 +133,7 @@ S は省略されることもある。
   - -us で終わるパターン: [**Do**minus](nom-acc-intro/noun-Dominus), [**Spī**ritus](nom-acc-intro/noun-spiritus)
   - -um で終わるパターン: [pec**cā**tum](nom-acc-intro/noun-peccatum), mystērium, sacrāmentum
     - 「中性名詞は主格と対格が同じ形」という話を思い出しましょう。
-  - -s で終わるパターン: [**re**quies](nom-acc-intro/noun-requies)
+  - -s で終わるパターン: [**re**quiēs](nom-acc-intro/noun-requies)
   - -x で終わるパターン: [pax](nom-acc-intro/noun-pax)
   - -a で終わるパターン: [**vi**a](nom-acc-intro/noun-via), [**glō**ria](nom-acc-intro/noun-gloria), [**dex**tera](nom-acc-intro/noun-dextera), [**vī**ta](nom-acc-intro/noun-vita)
 
@@ -162,3 +162,20 @@ S は省略されることもある。
   - [**Do**mine](nom-acc-intro/noun-Dominus), **Fī**lī ūni**ge**nite.
     - 訳: `主よ、唯一生み出された子よ。`
     - 呼びかけの時だけ主格から外れることもあります。**Do**mine は [**Do**minus](nom-acc-intro/noun-Dominus) (主) の呼びかけの形、**Fī**lī は **Fī**lius (子) の呼びかけの形、ūni**ge**nite は ūni**ge**nitus (唯一生み出された、お気に入りの) の呼びかけの形です。こういった場合については、呼びかけであることは明らかなことが多いので、形が多少変わることもあると覚えておけば良いはずです。
+
+- 例 (複数):
+  - -ī で終わるパターン: [**Do**minī](nom-acc-intro/noun-Dominus), **Sanc**tī
+  - -a で終わるパターン: [pec**cā**ta](nom-acc-intro/noun-peccatum), mystēria, sacrāmenta
+  - -ēs で終わるパターン: [**re**quiēs](nom-acc-intro/noun-requies)
+, [**pa**cēs](nom-acc-intro/noun-pax)
+  - -ae で終わるパターン: [**vi**ae](nom-acc-intro/noun-via), [**glō**riae](nom-acc-intro/noun-gloria), [**dex**tera](nom-acc-intro/noun-dextera), [**vī**tae](nom-acc-intro/noun-vita)
+- 例文:
+  - Jus**tō**rum [**a**nimae](common/noun-anima) in [**ma**nū](nom-acc-intro/noun-manus) **De**ī sunt.
+    - 訳: `正しい者たちの魂たちは神の手の中にある。`
+    - **a**nimae は **a**nima (魂) の複数形です。
+  - **Te**nebrae **fac**tae sunt.
+    - 訳: `闇が作られた。`
+    - ラテン語では「闇」を意味する **te**nebrae は複数形です。sunt は複数形を主語にとる動詞です。
+  - Cum **Chris**to **gau**dent **om**nēs **Sanc**tī.
+    - 訳: `キリストと共にすべての聖人たちが喜ぶ。`
+    - **Sanc**tī は **Sanc**tus (聖人) の複数形です。
