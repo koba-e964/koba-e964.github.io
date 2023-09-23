@@ -5,8 +5,6 @@ icon: ./latin.ico
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/命令形入門
 
-(Status: ![WIP](https://progress-bar.dev/90/?title=WIP))
-
 ラテン語の命令形には単数・複数の 2 通りがあります。
 
 [Exsultate Deo](https://www.vctokyo.jp/images/20150406/poulenc.pdf), [O vos omnes](http://medmus.sakura.ne.jp/TEXT17/text_17_26.html), O salutaris Hostia を例にして説明します。
@@ -71,4 +69,4 @@ icon: ./latin.ico
   - 日本語訳: [http://medmus.sakura.ne.jp/TEXT17/text_17_26.html](http://medmus.sakura.ne.jp/TEXT17/text_17_26.html)
 - 歌詞資料 (O salu**ta**ris **Hos**tia)
   - CPDL: [https://www.cpdl.org/wiki/index.php/O_salutaris_hostia](https://www.cpdl.org/wiki/index.php/O_salutaris_hostia)
-  - 日本語訳: TODO: 信頼できる日本語の資料がないので自分で作る。大体が、与格である Uni trinoque Domino を呼びかけだと思って訳している。
+  - 日本語訳: [https://koba-e964.gitbook.io/choral-music-latin-trans/osalutarishostia](https://koba-e964.gitbook.io/choral-music-latin-trans/osalutarishostia)
