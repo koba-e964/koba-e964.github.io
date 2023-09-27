@@ -17,7 +17,7 @@ icon: ./latin.ico
 |--|--|--|--|
 |at**ten**de|at**ten**dite|`注意を払え`/`向き直れ`|[at**ten**dō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=attendo)|
 |**bū**cinā|būci**nā**te|`吹き鳴らせ`|[**bū**cinō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=bucino)[^1]|
-|dā|**dā**te|`与えろ`|[dō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=do)|
+|da|**da**te|`与えろ`|[dō](https://latinitium.com/latin-dictionaries/?t=lsn14599)|
 |ex**sul**tā|exsul**tā**te|`喜べ`|[ex**sul**tō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=exsulto)|
 |fer|**fer**te|`もたらせ`|[**fe**rō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=fero)|
 |**jū**bilā|jūbi**lā**te|`叫べ`/`喜べ`|[**jū**bilō](https://www.online-latin-dictionary.com/latin-english-dictionary.php?parola=iubilo)|
@@ -28,9 +28,9 @@ icon: ./latin.ico
 
 ## 例文
 - 単数の例
-  - Dā **rō**bur, fer [au**xi**lium](imperative-intro/noun-auxilium).
+  - Da **rō**bur, fer [au**xi**lium](imperative-intro/noun-auxilium).
     - 訳: `(あなたは) 力を与えろ、助けをもたらせ。`
-  - Dā **mi**hi [**mor**tem](common/noun-mors) **i**terum.
+  - Da **mi**hi [**mor**tem](common/noun-mors) **i**terum.
     - 訳: `(あなたは) 再び私に死を与えろ。`
   - Ex**au**dī ōrāti**ō**nem **me**am.
     - 訳: `(あなたは) 私の祈りを聞き入れろ。`
@@ -70,3 +70,8 @@ icon: ./latin.ico
 - 歌詞資料 (O salu**ta**ris **Hos**tia)
   - CPDL: [https://www.cpdl.org/wiki/index.php/O_salutaris_hostia](https://www.cpdl.org/wiki/index.php/O_salutaris_hostia)
   - 日本語訳: [https://koba-e964.gitbook.io/choral-music-latin-trans/osalutarishostia](https://koba-e964.gitbook.io/choral-music-latin-trans/osalutarishostia)
+
+
+## 編集履歴
+- 2023-09-27 dō の命令形を dā(te) から da(te) に変更。(不規則動詞なので長音の ā で終わらない)
+- 2023-09-23 完成。
