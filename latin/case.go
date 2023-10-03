@@ -181,8 +181,7 @@ func CaseFind(noun Noun, number Number, case_ Case) *string {
 		return noun.Declensions[0][0]
 	}
 	// neuter: if plural genitive is -ium, plural nominative/accusative is -ia
-	prefix, found = strings.CutSuffix(*noun.Declensions[Plural][Genitive], "ium")
-	if found {
+	if prefix, found := strings.CutSuffix(*noun.Declensions[Plural][Genitive], "ium"); found {
 		value := prefix + [][]string{{"", "is", "ī", "", "ī", ""}, {"ia", "ium", "ibus", "ia", "ibus", "ia"}}[number][case_]
 		return &value
 	}

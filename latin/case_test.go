@@ -97,10 +97,10 @@ func TestCaseThirdDeclension(t *testing.T) {
 	}
 	// neuter -ium
 	{
-		noun := CreateThirdDeclensionNoun(Neuter, "cor", "cordis", "cordium")
+		noun := CreateThirdDeclensionNoun(Neuter, "animal", "animalis", "animalium")
 		expected := [][]string{
-			{"cor", "cordis", "cordī", "cor", "corde", "cor"},
-			{"corda", "cordium", "cordibus", "corda", "cordibus", "corda"},
+			{"animal", "animalis", "animalī", "animal", "animalī", "animal"},
+			{"animalia", "animalium", "animalibus", "animalia", "animalibus", "animalia"},
 		}
 		for i, number := range numbers {
 			for j, case_ := range cases {
