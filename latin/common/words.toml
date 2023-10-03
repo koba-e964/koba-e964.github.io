@@ -74,7 +74,7 @@ declension = 3
 gender = "feminine"
 translation = "死"
 [[nouns.examples]]
-latin = "Dā **mi**hi **mor**tem **i**terum."
+latin = "Da **mi**hi **mor**tem **i**terum."
 japanese = "(あなたは) 再び私に死を与えろ。"
 [[nouns.examples]]
 latin = "**Es**tō **nō**bīs praegus**tā**tum **mor**tis in ex**ā**mine."
