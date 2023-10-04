@@ -188,3 +188,92 @@ func CaseFind(noun Noun, number Number, case_ Case) *string {
 	value := prefix + [][]string{{"", "is", "ī", "", "e", ""}, {"a", "um", "ibus", "a", "ibus", "a"}}[number][case_]
 	return &value
 }
+
+type Adjective struct {
+	DeclensionType string // One of ["1+2", "3", "UNUS NAUTA"]
+
+	// nil: not yet filled
+	// &"": actually missing
+	Declensions [3][2][6]*string
+}
+
+func (adjective *Adjective) Fill() {
+	for g := 0; g < 3; g++ {
+		for i := 0; i < 2; i++ {
+			for j := 0; j < 6; j++ {
+				if adjective.Declensions[g][i][j] == nil {
+					value := CaseFindAdjective(*adjective, Gender(g), Number(i), Case(j))
+					adjective.Declensions[g][i][j] = value
+				}
+			}
+		}
+	}
+}
+
+func (adjective *Adjective) IsFilled() bool {
+	for g := 0; g < 3; g++ {
+		for i := 0; i < 2; i++ {
+			for j := 0; j < 6; j++ {
+				if adjective.Declensions[g][i][j] == nil {
+					return false
+				}
+			}
+		}
+	}
+	return true
+}
+
+// CreateAdjective is for "1+2" or "UNUS NAUTA"
+func CreateAdjective(masculineNom string, masculineGen string, decltype string) Adjective {
+	return Adjective{
+		DeclensionType: decltype,
+		Declensions:    [3][2][6]*string{{{&masculineNom, &masculineGen}}},
+	}
+}
+
+func CaseFindAdjective(adjective Adjective, gender Gender, number Number, case_ Case) *string {
+	if adjective.DeclensionType == "1+2" || adjective.DeclensionType == "UNUS NAUTA" {
+		gen := *adjective.Declensions[Masculine][Singular][Genitive]
+		if adjective.DeclensionType == "UNUS NAUTA" {
+			prefix, found := strings.CutSuffix(gen, "īus")
+			if !found {
+				panic(gen)
+			}
+			if case_ == Vocative {
+				return nil // UNUS NAUTA has no vocative
+			}
+			// singular genitive: -īus
+			if number == Singular && case_ == Genitive {
+				value := prefix + "īus"
+				return &value
+			}
+			// singular dative: -ī
+			if number == Singular && case_ == Dative {
+				value := prefix + "ī"
+				return &value
+			}
+		}
+		prefix, found := strings.CutSuffix(gen, "ī")
+		if !found {
+			panic(gen)
+		}
+		if gender == Masculine {
+			noun := CreateNoun(Masculine,
+				*adjective.Declensions[Masculine][Singular][Nominative],
+				gen,
+				2,
+			)
+			return CaseFind(noun, number, case_)
+		}
+		if gender == Feminine {
+			noun := CreateNoun(Feminine, prefix+"a", prefix+"ae", 1)
+			return CaseFind(noun, number, case_)
+		}
+		noun := CreateNoun(Neuter, prefix+"um", prefix+"ī", 2)
+		return CaseFind(noun, number, case_)
+	}
+	if adjective.DeclensionType != "3" {
+		panic(adjective.DeclensionType)
+	}
+	panic("not yet implemented, adjective III declension")
+}

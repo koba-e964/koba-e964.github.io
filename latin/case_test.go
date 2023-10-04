@@ -6,6 +6,7 @@ import (
 	"github.com/bayashi/actually"
 )
 
+var genders = []Gender{Masculine, Feminine, Neuter}
 var cases = []Case{Nominative, Genitive, Dative, Accusative, Ablative, Vocative}
 var numbers = []Number{Singular, Plural}
 
@@ -167,6 +168,35 @@ func TestCaseFifthDeclension(t *testing.T) {
 			for j, case_ := range cases {
 				actual := CaseFind(noun, number, case_)
 				actually.Got(*actual).Expect(expected[i][j]).Same(t)
+			}
+		}
+	}
+}
+
+func TestCaseAdjectiveFirstSecondDeclension(t *testing.T) {
+	// -us, -a, -um
+	{
+		adjective := CreateAdjective("bonus", "bonī", "1+2")
+		expected := [][][]string{
+			{
+				{"bonus", "bonī", "bonō", "bonum", "bonō", "bone"},
+				{"bonī", "bonōrum", "bonīs", "bonōs", "bonīs", "bonī"},
+			},
+			{
+				{"bona", "bonae", "bonae", "bonam", "bonā", "bona"},
+				{"bonae", "bonārum", "bonīs", "bonās", "bonīs", "bonae"},
+			},
+			{
+				{"bonum", "bonī", "bonō", "bonum", "bonō", "bonum"},
+				{"bona", "bonōrum", "bonīs", "bona", "bonīs", "bona"},
+			},
+		}
+		for i, gender := range genders {
+			for j, number := range numbers {
+				for k, case_ := range cases {
+					actual := CaseFindAdjective(adjective, gender, number, case_)
+					actually.Got(*actual).Expect(expected[i][j][k]).Same(t)
+				}
 			}
 		}
 	}
