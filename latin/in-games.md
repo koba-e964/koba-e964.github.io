@@ -1,6 +1,6 @@
 ---
 title: ゲームに登場するラテン語
-icon: ./latin.ico
+icon: /latin/latin.ico
 ---
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/ゲームに登場するラテン語

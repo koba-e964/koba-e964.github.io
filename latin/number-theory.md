@@ -1,6 +1,6 @@
 ---
 title: 整数論のラテン語
-icon: ./latin.ico
+icon: /latin/latin.ico
 ---
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/整数論のラテン語

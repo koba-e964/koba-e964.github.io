@@ -1,6 +1,6 @@
 ---
 title: 第 1 変化の男性名詞
-icon: ./latin.ico
+icon: /latin/latin.ico
 ---
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/第 1 変化の男性名詞

@@ -1,6 +1,6 @@
 ---
 title: 主語・目的語入門
-icon: ./latin.ico
+icon: /latin/latin.ico
 ---
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/主語・目的語入門

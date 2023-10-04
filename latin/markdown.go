@@ -70,7 +70,7 @@ func MakeMarkdownForNoun(noun NounEntry) string {
 	}
 	header := `---
 title: 名詞 ` + noun.Filename + `
-icon: ../latin.ico
+icon: /latin/latin.ico
 ---
 
 ## ` + noun.Filename + " (" + noun.Translation + ")\n" +

@@ -1,6 +1,6 @@
 ---
 title: 命令形入門
-icon: ./latin.ico
+icon: /latin/latin.ico
 ---
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/命令形入門

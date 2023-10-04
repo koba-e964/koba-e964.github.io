@@ -1,6 +1,6 @@
 ---
 title: -men で終わる中性名詞
-icon: ./latin.ico
+icon: /latin/latin.ico
 ---
 
 # [こばのページ](../index.html)/[ラテン語](index.html)/-men で終わる中性名詞
