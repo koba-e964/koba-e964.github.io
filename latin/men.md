@@ -13,6 +13,7 @@ icon: /latin/latin.ico
 |augmen|追加のもの|
 |carmen|歌|
 |certāmen|戦い|
+|columen|頂上|
 |crīmen|罪|
 |exāmen|試練|
 |flūmen|流れ|
