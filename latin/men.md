@@ -10,11 +10,13 @@ icon: /latin/latin.ico
 |--|--|--|
 |abdōmen|腹部|
 |acūmen|点|
+|alūmen|ミョウバン|aluminum の語源|
 |augmen|追加のもの|
 |carmen|歌|
 |certāmen|戦い|
-|columen|頂上|
+|columen|頂上|男性名詞|
 |crīmen|罪|
+|culmen|頂上|columen と同根のはず。 culmination の語源|
 |exāmen|試練|
 |flūmen|流れ|
 |lūmen|光|
