@@ -85,9 +85,13 @@ CARISSIMA FEMINA, MEL MEVM
 それだけだと芸がないので、個人的に好きな文章もまとめておきます。
 
 - Pulchra es, amica mea (Pulchra es, amīca mea)
+  - 「**あなたは美しい、私の愛する人よ**」という意味です。[『雅歌』第6章](https://www.biblegateway.com/passage/?search=Solomon+6&version=KJV;VULGATE)です。
+  - 対象者の性によって使うべき単語が違うことに注意しましょう。
+    - 男性: Pulcher es, amice mi (Pulcher es, amīce mī)
+    - 女性: Pulchra es, amica mea (Pulchra es, amīca mea)
+    - 繰り返しになりますが、これは自分の性ではなく、対象者の性によって使い分けることに注意しましょう。
 
 ## 参考資料
-
 - https://www.iprimo.jp/columns/cc_3/column123.html
 - https://www.k-uno.co.jp/bridal/article/ring-engraved/
 - https://weddingring.wmjp.net/examples/latin/
@@ -96,4 +100,4 @@ CARISSIMA FEMINA, MEL MEVM
 - https://www.hitotsuchi.com/blog/7618.html
 
 ## 編集履歴
-- 20XX-XX-XX v1.0 完成。
+- 2024-02-28 v1.0 完成。
