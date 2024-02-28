@@ -20,7 +20,7 @@ icon: /latin/latin.ico
 
 以下の注意点があります。(詳しくは[このページ](https://aeneis.jp/?p=79)を見てください。)
 - u をすべて V にする (carus → CARVS など)
-- j をすべて I にする (justitia → IVSTITIA など)
+- j をすべて I にする ([justitia](in-wedding-engagement-ring/noun-justitia) → IVSTITIA など)
 
 以上を踏まえ、仮に「最愛の女性、マイハニー」という意味の言葉 (cārissima fēmina, mēl meum) を刻印したいのであれば、刻印は
 ```
@@ -47,7 +47,7 @@ CARISSIMA FEMINA, MEL MEVM
     不吉なので個人的には使いたくありません。
 
 - Amor est vitae essential
-  - 正しい形は Amor est vitae essentialis (Amor est vītae essentīālis) です。
+  - 正しい形は Amor est vitae essentialis (Amor est vītae essentiālis) です。
   - 「**愛はかけがえのないもの**」という訳で紹介されています。「**人生の**」が抜けていますがそれ以外は正しいです。
 
 - amos (アモス)
@@ -59,13 +59,17 @@ CARISSIMA FEMINA, MEL MEVM
     - 中性: carissimum (cārissimum, カーリッスィムム)
     - これは自分の性ではなく、対象者の性によって使い分けることに注意しましょう。
 
+- vitum mirabilis
+  - おそらく vita mirabilis (vīta mīrābilis, ウィータ・ミーラービリス) が正しい形でしょう。
+  - 「**素晴らしい人生**」という意味は正しいです。
+
 - honeste (honestē, ホネステー)
   - 副詞であり、[「誠実に、名誉に値する方法で、きちんと」](https://latinitium.com/latin-dictionaries/?t=lsn20886,lsn20889)という意味があります。
   - 「誠実」という意味で紹介されることが多いようです。細かいですが名詞ではないので微妙に誤っています。とはいえこれを何かに書いたとして問題は全くないでしょう。
   - もし仮に「誠実」という名詞形にしたいのであれば、代案は [honestas (honestās, ホネスタース)](https://latinitium.com/latin-dictionaries/?t=lsn20885,do550) です。
 
 - Da mihi basia mille (Da mihi basia mille, ダ・ミヒ・バスィア・ミッレ)
-  - 「**私に千のキスをしてください**」という意味です。意味は正しいですが[原文では mihi が mi になっています](https://aeneis.jp/?p=1281)。
+  - 「**私に千のキスをしてください**」という意味です。意味は正しいですが[原文では mihi が mi になっています](https://aeneis.jp/?p=1281)。これも何かに書いたとして問題は全くないでしょう。
   - Da mi basia mille (Da mī basia mille, ダ・ミー・バスィア・ミッレ)
 
 - Quos amor verus tenuit, tenebit (Quōs amor vērus tenuit, tenēbit)
@@ -73,9 +77,14 @@ CARISSIMA FEMINA, MEL MEVM
   - 「真実の愛はそれを持った者にもたらされます」という訳が出回っています。これだと「とどまった」と「とどまるだろう」の対比がなく意味不明です。
 
 - Con Todo Me Amore
-  - おそらくイタリア語です (未検証)
+  - おそらくイタリア語です (未検証) ラテン語ではないです
+
 ## お勧め
 [「山下太郎のラテン語入門」というページに格言をまとめたものがある](https://aeneis.jp/?cat=9)ので、その中を探すのが最も確実です。
+
+それだけだと芸がないので、個人的に好きな文章もまとめておきます。
+
+- Pulchra es, amica mea (Pulchra es, amīca mea)
 
 ## 参考資料
 

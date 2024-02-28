@@ -8,6 +8,15 @@ gender = "masculine"
 translation = "救い手"
 
 [[nouns]]
+title = "amor"
+synopsis = "amor"
+genitive = "amōris"
+plural_genitive = "amōrum"
+declension = 3
+gender = "masculine"
+translation = "愛"
+
+[[nouns]]
 title = "anima"
 synopsis = "anima"
 genitive = "animae"

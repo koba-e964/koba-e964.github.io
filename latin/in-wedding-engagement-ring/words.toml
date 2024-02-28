@@ -1,0 +1,10 @@
+[[nouns]]
+title = "justitia"
+synopsis = "justitia"
+genitive = "justitiae"
+declension = 1
+gender = "feminine"
+translation = "正義"
+[[nouns.examples]]
+latin = "**Vē**ritas et **jus**titia."
+japanese = "真実と正義。"
