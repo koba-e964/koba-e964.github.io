@@ -13,5 +13,9 @@ icon: /latin/latin.ico
   - 短所: 紹介されている発音は古典式なので、教会式で歌う場合は参考にならないでしょう。
 - グレゴリオ聖歌逐語訳シリーズ [https://note.com/efi/n/nb68a25ba2d1f](https://note.com/efi/n/nb68a25ba2d1f)
   - [Ephraem Fukutaro Ikeda (池田福太朗)](https://note.com/efi)さんによる逐語訳シリーズです。文法的な解説が詳しく、勉強になります。古典ギリシア語での原典も踏まえ訳をされているので、単純なラテン語からよりも深い理解が期待できます。
+- 合唱曲のラテン語翻訳 [https://koba-e964.gitbook.io/choral-music-latin-trans/](https://koba-e964.gitbook.io/choral-music-latin-trans/)
+  - このサイトの作者 (koba) によるページです。合唱曲のラテン語文を単語ごとに文法解説しています。
+- 【大阪府貝塚市】コスモス混声合唱団/ラテン語について [http://cosmosmvc.web.fc2.com/lingua_latina.html](http://cosmosmvc.web.fc2.com/lingua_latina.html)
+  - 単語ごとに文法的な性質と訳を載せています。
 - CPDL [https://www.cpdl.org/wiki/index.php/Main_Page](https://www.cpdl.org/wiki/index.php/Main_Page)
   - 英語なのがネックですが、探して見つけた日本語訳の中にまともなのがなかった場合に重宝します。
