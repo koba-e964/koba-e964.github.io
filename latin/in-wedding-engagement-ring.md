@@ -2,6 +2,7 @@
 title: 結婚指輪で使われるラテン語
 icon: /latin/latin.ico
 ---
+# [こばのページ](../index.html)/[ラテン語](index.html)/結婚指輪で使われるラテン語
 
 ## 刻印をどうすべきか
 このページでは単語を以下の 2 通りのどちらかで表現しています。
@@ -100,4 +101,5 @@ CARISSIMA FEMINA, MEL MEVM
 - https://www.hitotsuchi.com/blog/7618.html
 
 ## 編集履歴
+- 2024-03-11 v1.0.1 完成。タイトルをページトップに追加。
 - 2024-02-28 v1.0 完成。
