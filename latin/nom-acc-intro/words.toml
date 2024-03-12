@@ -29,15 +29,6 @@ latin = "**Il**lī mens est **mi**sera quī nec **vī**vit nec las**cī**vit sub
 japanese = "夏の右手 (制御権) の下にありながら、活発になろうともせず、跳ね回ろうともしない、そんな奴の心は惨めだ。"
 
 [[nouns]]
-title = "dolor"
-synopsis = "dolor"
-genitive = "dolōris"
-plural_genitive = "dolōrum"
-declension = 3
-gender = "masculine"
-translation = "悲しみ"
-
-[[nouns]]
 title = "vita"
 synopsis = "vīta"
 genitive = "vītae"
@@ -179,6 +170,9 @@ genitive = "malī"
 declension = 2
 gender = "neuter"
 translation = "悪"
+[[nouns.examples]]
+latin = "Mala nostra pelle."
+japanese = "私たちの悪を追い払え。"
 
 [[nouns]]
 title = "bonum"
@@ -187,3 +181,6 @@ genitive = "bonī"
 declension = 2
 gender = "neuter"
 translation = "善"
+[[nouns.examples]]
+latin = "Bona cuncta posce."
+japanese = "すべての善を願え。"

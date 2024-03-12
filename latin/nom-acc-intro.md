@@ -52,7 +52,7 @@ S は省略されることもある。
   - **Grā**tiās **a**gimus **ti**bi **prop**ter **mag**nam [**glō**riam](nom-acc-intro/noun-gloria) **tu**am. (ミサ通常文 Gloria より)
     - 訳: `あなたの大いなる栄光を理由として、私たちはあなたに感謝する。`
     - propter は「〜ゆえに」を意味する前置詞で、対格を取ります。magnam は「大きい」を意味する形容詞 magnus の女性・単数・対格、tuam は「あなたの」を意味する形容詞 tuus の女性・単数・対格です。形容詞で修飾された語が対格になる場合、形容詞も含め全てが対格になります。(そのためここでの magnam, gloriam, tuam すべてが対格です。)
-  - Vi**dē**te [do**lō**rem](nom-acc-intro/noun-dolor) **me**um. (『哀歌』第 1 章第 18 節)
+  - Vi**dē**te [do**lō**rem](common/noun-dolor) **me**um. (『哀歌』第 1 章第 18 節)
     - 訳: `(あなたたちは) 私の苦しみを見ろ。`
   - Can**tā**te [**Do**minō](nom-acc-intro/noun-Dominus) [**can**ticum](common/noun-canticum) **no**vum. (『詩篇』第 149 章第 1 節)
     - 訳: `(あなたたちは) 主に向かって新しい歌を歌え。`
