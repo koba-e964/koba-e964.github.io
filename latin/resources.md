@@ -19,3 +19,15 @@ icon: /latin/latin.ico
   - 単語ごとに文法的な性質と訳を載せています。
 - CPDL [https://www.cpdl.org/wiki/index.php/Main_Page](https://www.cpdl.org/wiki/index.php/Main_Page)
   - 英語なのがネックですが、探して見つけた日本語訳の中にまともなのがなかった場合に重宝します。
+
+## 文法
+- Wikibooks [https://ja.wikibooks.org/wiki/ラテン語の文法](https://ja.wikibooks.org/wiki/%E3%83%A9%E3%83%86%E3%83%B3%E8%AA%9E%E3%81%AE%E6%96%87%E6%B3%95)
+  - 基本のキが載っています。
+- ラテン語（lingua Latina）[http://www.lingua-latina.org/](http://www.lingua-latina.org/)
+  - 基本のキ・ホが載っています。
+
+## 単語
+- ONLINE LATIN DICTIONARY [https://www.online-latin-dictionary.com/](https://www.online-latin-dictionary.com/)
+  - 活用形でも入力すると元の形を表示してくれる辞書です。
+- [https://latinitium.com/latin-dictionaries/](https://latinitium.com/latin-dictionaries/)
+  - 詳しい用例を調べたいときに使えます。上の ONLINE LATIN DICTIONARY で元の形を調べた後この辞書を使う、という使い方ができます。
