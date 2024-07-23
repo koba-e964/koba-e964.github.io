@@ -11,6 +11,10 @@ title: 作成したツール
 AtCoder (algo) のレーティングを予測し、次にどのくらいのパフォーマンスが必要か計算します。
 
 ## ツール
+### link-checker (最終更新: 2024 年 7 月)
+[https://github.com/koba-e964/link-checker](https://github.com/koba-e964/link-checker)
+ハイパーリンクが生きているかどうかのチェックをするツールです。CI で使うことを想定しています。
+
 ### clavem (最終更新: 2024 年 2 月)
 [https://github.com/koba-e964/clavem](https://github.com/koba-e964/clavem)
 openssl や ssh などで扱える鍵の情報を閲覧するツールです。
