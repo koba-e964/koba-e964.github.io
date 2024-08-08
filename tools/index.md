@@ -15,6 +15,10 @@ AtCoder (algo) のレーティングを予測し、次にどのくらいのパ�
 [https://github.com/koba-e964/link-checker](https://github.com/koba-e964/link-checker)
 ハイパーリンクが生きているかどうかのチェックをするツールです。CI で使うことを想定しています。
 
+### go-shogi-scraper (最終更新: 2024 年 2 月)
+[https://github.com/koba-e964/go-shogi-scraper](https://github.com/koba-e964/go-shogi-scraper)
+将棋関連の情報 (棋士など) を取得できるツールです。
+
 ### clavem (最終更新: 2024 年 2 月)
 [https://github.com/koba-e964/clavem](https://github.com/koba-e964/clavem)
 openssl や ssh などで扱える鍵の情報を閲覧するツールです。
