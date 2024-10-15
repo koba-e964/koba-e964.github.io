@@ -23,4 +23,5 @@ icon: /latin/latin.ico
 |nōmen|名前|praenōmen, prōnōmen, cognōmen などの派生形あり|
 |ōmen|予兆|
 |sēmen|種|
+|stāmen|糸|スタミナの語源|
 |volūmen|章|
