@@ -7,6 +7,6 @@ icon: /swedish/swedish.ico
 
 ## 便利情報
 ### 文法チートシート
-[文法チートシート](./grammar-cheetsheet)
+[文法チートシート](./grammar-cheatsheet)
 
 スウェーデン語初心者が忘れがちな文法を 1 ページにまとめました。
