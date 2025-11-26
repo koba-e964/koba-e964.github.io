@@ -52,9 +52,9 @@ CARISSIMA FEMINA, MEL MEVM
   - 「**愛はかけがえのないもの**」という訳で紹介されています。「**人生の**」が抜けていますがそれ以外は正しいです。
 
 - amos (アモス)
-  - https://latinitium.com/latin-dictionaries/?t=lsn2294,lsn2299 から、[**amor (愛)**](common/noun-amor) の古い形であることが確認できます。
+  - <https://latinitium.com/latin-dictionaries/?t=lsn2294,lsn2299> から、[**amor (愛)**](common/noun-amor) の古い形であることが確認できます。
   - 「最愛の人」という意味で紹介されることが多いようです。これは誤りと言えるでしょう。
-  - 「最愛の人」という意味にする場合、代案は carissim(-us,-a,-um) です([原案](https://www.quora.com/What-is-the-Latin-translation-of-beloved-in-a-love-term-of-endearment-way))。[carus (親愛なる)](https://latinitium.com/latin-dictionaries/?t=lsn6903) の最上級です。
+  - 「最愛の人」という意味にする場合、代案は carissim(-us,-a,-um) です ([原案](https://www.quora.com/What-is-the-Latin-translation-of-beloved-in-a-love-term-of-endearment-way))。[carus (親愛なる)](https://latinitium.com/latin-dictionaries/?t=lsn6903) の最上級です。
     - 男性: carissimus (cārissimus, カーリッスィムス)
     - 女性: carissima (cārissima, カーリッスィマ)
     - 中性: carissimum (cārissimum, カーリッスィムム)
@@ -102,4 +102,4 @@ CARISSIMA FEMINA, MEL MEVM
 
 ## 編集履歴
 - 2024-03-11 v1.0.1 完成。タイトルをページトップに追加。
-- 2024-02-28 v1.0 完成。
+- 2024-02-28 v1.0.0 完成。
