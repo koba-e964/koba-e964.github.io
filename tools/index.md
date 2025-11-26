@@ -37,10 +37,20 @@ openssl や ssh などで扱える鍵の情報を閲覧するツールです。
 所属していた学科の実験で実装した、[MinCaml](https://esumii.github.io/min-caml/) のコンパイラーです。
 
 ## ライブラリー
-### bip32-typesafe (最終更新: 2024 年 2 月)
+### bip32-typesafe (最終更新: 2025 年 11 月)
 [https://github.com/koba-e964/bip32-typesafe](https://github.com/koba-e964/bip32-typesafe)
 
 BIP 32 で定義されている鍵導出を安全に実装した Go のライブラリーです。
+
+### base58-go (最終更新: 2025 年 11 月)
+<https://github.com/koba-e964/base58-go/>
+
+base58 を安全に実装した Go のライブラリーです。
+
+### gen-anomalous (最終更新: 2025 年 3 月)
+<https://github.com/koba-e964/code-reading/tree/master/algorithm/gen-anomalous>
+
+Anomalous curve を生成するツールです。CTF などで使うことができます。
 
 ### Rust shogi crates (最終更新: 2023 年 6 月)
 [https://github.com/rust-shogi-crates](https://github.com/rust-shogi-crates)
